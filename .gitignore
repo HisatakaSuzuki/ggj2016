@@ -19,6 +19,7 @@ ExportedObj/
 *.svd
 
 
+[Ll]ibrary/*.*
 # Unity3D generated meta files
 *.pidb.meta
 
