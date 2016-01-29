@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SaraYogore : MonoBehaviour {
+public class SaraYogore : MonoBehaviour
+{
+    [SerializeField]
+    SaraArai m_SaraArai;
 
-    
-
-    void OnTriggerBegin(Collider target)
+    void OnTriggerEnter(Collider other)
     {
-        if (target.tag == "Player")
+        if (other.tag == "Player")
         {
-            Destroy(target);
+            Destroy(gameObject);
+            if (m_SaraArai)
+            {
+                m_SaraArai.YogoreDead();
+            }
         }
+        
     }
+
 }
