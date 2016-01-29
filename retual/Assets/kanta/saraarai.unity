@@ -97,6 +97,7 @@ GameObject:
   - 135: {fileID: 172085363}
   - 198: {fileID: 172085362}
   - 199: {fileID: 172085361}
+  - 114: {fileID: 172085365}
   m_Layer: 0
   m_Name: yogore (23)
   m_TagString: Untagged
@@ -1620,6 +1621,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172085359}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &172085365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172085359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &172568941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1645,7 @@ GameObject:
   - 135: {fileID: 172568945}
   - 198: {fileID: 172568944}
   - 199: {fileID: 172568943}
+  - 114: {fileID: 172568947}
   m_Layer: 0
   m_Name: yogore (25)
   m_TagString: Untagged
@@ -3155,6 +3169,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172568941}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &172568947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172568941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &307374775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,6 +3193,7 @@ GameObject:
   - 135: {fileID: 307374779}
   - 198: {fileID: 307374778}
   - 199: {fileID: 307374777}
+  - 114: {fileID: 307374781}
   m_Layer: 0
   m_Name: yogore (21)
   m_TagString: Untagged
@@ -4690,6 +4717,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 307374775}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &307374781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307374775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &333517227
 GameObject:
   m_ObjectHideFlags: 0
@@ -4702,6 +4741,7 @@ GameObject:
   - 135: {fileID: 333517231}
   - 198: {fileID: 333517230}
   - 199: {fileID: 333517229}
+  - 114: {fileID: 333517233}
   m_Layer: 0
   m_Name: yogore (2)
   m_TagString: Untagged
@@ -6225,6 +6265,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333517227}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &333517233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333517227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &359586289
 GameObject:
   m_ObjectHideFlags: 0
@@ -6237,6 +6289,7 @@ GameObject:
   - 135: {fileID: 359586293}
   - 198: {fileID: 359586292}
   - 199: {fileID: 359586291}
+  - 114: {fileID: 359586295}
   m_Layer: 0
   m_Name: yogore (6)
   m_TagString: Untagged
@@ -7760,6 +7813,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 359586289}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &359586295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359586289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &390223508
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,6 +7837,7 @@ GameObject:
   - 135: {fileID: 390223512}
   - 198: {fileID: 390223511}
   - 199: {fileID: 390223510}
+  - 114: {fileID: 390223514}
   m_Layer: 0
   m_Name: yogore (38)
   m_TagString: Untagged
@@ -9295,6 +9361,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 390223508}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &390223514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 390223508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &422227928
 GameObject:
   m_ObjectHideFlags: 0
@@ -9307,6 +9385,7 @@ GameObject:
   - 135: {fileID: 422227932}
   - 198: {fileID: 422227931}
   - 199: {fileID: 422227930}
+  - 114: {fileID: 422227934}
   m_Layer: 0
   m_Name: yogore (16)
   m_TagString: Untagged
@@ -10830,6 +10909,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 422227928}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &422227934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422227928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &452169923
 GameObject:
   m_ObjectHideFlags: 0
@@ -10842,6 +10933,7 @@ GameObject:
   - 135: {fileID: 452169927}
   - 198: {fileID: 452169926}
   - 199: {fileID: 452169925}
+  - 114: {fileID: 452169929}
   m_Layer: 0
   m_Name: yogore (37)
   m_TagString: Untagged
@@ -12365,6 +12457,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 452169923}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &452169929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452169923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &465461564
 GameObject:
   m_ObjectHideFlags: 0
@@ -12373,6 +12477,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 465461565}
+  - 114: {fileID: 465461566}
   m_Layer: 0
   m_Name: Sara
   m_TagString: Untagged
@@ -12394,6 +12499,22 @@ Transform:
   - {fileID: 1823306852}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &465461566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465461564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a6348faf5b68047bb9533b25ede0b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_YogoreContent: {fileID: 1823306851}
+  m_SaraMaterial: {fileID: 1964749136}
+  m_SaraMaterial_Yogore: {r: 0.4705882, g: 0.30182552, b: 0, a: 1}
+  m_SaraMaterial_Kirei: {r: 1, g: 1, b: 1, a: 1}
+  m_CompleteLevel: {fileID: 1032861707}
 --- !u!1 &483746875
 GameObject:
   m_ObjectHideFlags: 0
@@ -12406,6 +12527,7 @@ GameObject:
   - 135: {fileID: 483746879}
   - 198: {fileID: 483746878}
   - 199: {fileID: 483746877}
+  - 114: {fileID: 483746881}
   m_Layer: 0
   m_Name: yogore (7)
   m_TagString: Untagged
@@ -13929,6 +14051,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 483746875}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &483746881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483746875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &540065078
 GameObject:
   m_ObjectHideFlags: 0
@@ -13941,6 +14075,7 @@ GameObject:
   - 135: {fileID: 540065082}
   - 198: {fileID: 540065081}
   - 199: {fileID: 540065080}
+  - 114: {fileID: 540065084}
   m_Layer: 0
   m_Name: yogore (5)
   m_TagString: Untagged
@@ -15464,6 +15599,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540065078}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &540065084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540065078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &670566901
 GameObject:
   m_ObjectHideFlags: 0
@@ -15476,6 +15623,7 @@ GameObject:
   - 135: {fileID: 670566905}
   - 198: {fileID: 670566904}
   - 199: {fileID: 670566903}
+  - 114: {fileID: 670566907}
   m_Layer: 0
   m_Name: yogore (8)
   m_TagString: Untagged
@@ -16999,6 +17147,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 670566901}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &670566907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670566901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &684195087
 GameObject:
   m_ObjectHideFlags: 0
@@ -17011,6 +17171,7 @@ GameObject:
   - 135: {fileID: 684195091}
   - 198: {fileID: 684195090}
   - 199: {fileID: 684195089}
+  - 114: {fileID: 684195093}
   m_Layer: 0
   m_Name: yogore (12)
   m_TagString: Untagged
@@ -18534,6 +18695,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 684195087}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &684195093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684195087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &710175964
 GameObject:
   m_ObjectHideFlags: 0
@@ -18546,6 +18719,7 @@ GameObject:
   - 135: {fileID: 710175968}
   - 198: {fileID: 710175967}
   - 199: {fileID: 710175966}
+  - 114: {fileID: 710175970}
   m_Layer: 0
   m_Name: yogore (10)
   m_TagString: Untagged
@@ -20069,6 +20243,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 710175964}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &710175970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &809543031
 GameObject:
   m_ObjectHideFlags: 0
@@ -20081,6 +20267,7 @@ GameObject:
   - 135: {fileID: 809543035}
   - 198: {fileID: 809543034}
   - 199: {fileID: 809543033}
+  - 114: {fileID: 809543037}
   m_Layer: 0
   m_Name: yogore (9)
   m_TagString: Untagged
@@ -21604,6 +21791,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 809543031}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &809543037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809543031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &907925484
 GameObject:
   m_ObjectHideFlags: 0
@@ -21616,6 +21815,7 @@ GameObject:
   - 135: {fileID: 907925488}
   - 198: {fileID: 907925487}
   - 199: {fileID: 907925486}
+  - 114: {fileID: 907925490}
   m_Layer: 0
   m_Name: yogore (1)
   m_TagString: Untagged
@@ -23139,6 +23339,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907925484}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &907925490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907925484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &941037210
 GameObject:
   m_ObjectHideFlags: 0
@@ -23151,6 +23363,7 @@ GameObject:
   - 135: {fileID: 941037214}
   - 198: {fileID: 941037213}
   - 199: {fileID: 941037212}
+  - 114: {fileID: 941037216}
   m_Layer: 0
   m_Name: yogore (36)
   m_TagString: Untagged
@@ -24674,6 +24887,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 941037210}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &941037216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941037210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1006384602
 GameObject:
   m_ObjectHideFlags: 0
@@ -24686,6 +24911,7 @@ GameObject:
   - 135: {fileID: 1006384606}
   - 198: {fileID: 1006384605}
   - 199: {fileID: 1006384604}
+  - 114: {fileID: 1006384608}
   m_Layer: 0
   m_Name: yogore (19)
   m_TagString: Untagged
@@ -26209,6 +26435,164 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1006384602}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1006384608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1006384602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
+--- !u!1 &1007553493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1007553494}
+  - 222: {fileID: 1007553496}
+  - 114: {fileID: 1007553495}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1007553494
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007553493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1159167786}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -138.2, y: 128.5}
+  m_SizeDelta: {x: 50.8, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1007553495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007553493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u9054\u6210\u7387"
+--- !u!222 &1007553496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007553493}
+--- !u!1 &1032861705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1032861706}
+  - 222: {fileID: 1032861708}
+  - 114: {fileID: 1032861707}
+  m_Layer: 5
+  m_Name: parText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1032861706
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032861705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1159167786}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -63.6, y: 128.5}
+  m_SizeDelta: {x: 98.3, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1032861707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032861705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u9054\u6210\u7387"
+--- !u!222 &1032861708
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032861705}
 --- !u!1 &1069177066
 GameObject:
   m_ObjectHideFlags: 0
@@ -26221,6 +26605,7 @@ GameObject:
   - 135: {fileID: 1069177070}
   - 198: {fileID: 1069177069}
   - 199: {fileID: 1069177068}
+  - 114: {fileID: 1069177072}
   m_Layer: 0
   m_Name: yogore (20)
   m_TagString: Untagged
@@ -27744,6 +28129,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1069177066}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1069177072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1069177066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1092507498
 GameObject:
   m_ObjectHideFlags: 0
@@ -27817,6 +28214,7 @@ GameObject:
   - 135: {fileID: 1125395431}
   - 198: {fileID: 1125395430}
   - 199: {fileID: 1125395429}
+  - 114: {fileID: 1125395433}
   m_Layer: 0
   m_Name: yogore (27)
   m_TagString: Untagged
@@ -29340,6 +29738,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1125395427}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1125395433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1125395427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1126308802
 GameObject:
   m_ObjectHideFlags: 0
@@ -29352,6 +29762,7 @@ GameObject:
   - 135: {fileID: 1126308806}
   - 198: {fileID: 1126308805}
   - 199: {fileID: 1126308804}
+  - 114: {fileID: 1126308808}
   m_Layer: 0
   m_Name: yogore (15)
   m_TagString: Untagged
@@ -30875,6 +31286,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126308802}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1126308808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126308802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1145477799
 GameObject:
   m_ObjectHideFlags: 0
@@ -30886,6 +31309,8 @@ GameObject:
   - 33: {fileID: 1145477802}
   - 65: {fileID: 1145477801}
   - 23: {fileID: 1145477800}
+  - 54: {fileID: 1145477804}
+  - 114: {fileID: 1145477805}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -30945,11 +31370,129 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145477799}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.237, y: -0.01, z: -1.111}
+  m_LocalPosition: {x: -1.217, y: 0.605, z: -1.111}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!54 &1145477804
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145477799}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1145477805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145477799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ebed4e76e3bdd4096e80d0718db242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1159167782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1159167786}
+  - 223: {fileID: 1159167785}
+  - 114: {fileID: 1159167784}
+  - 114: {fileID: 1159167783}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1159167783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1159167782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1159167784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1159167782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1159167785
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1159167782}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1159167786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1159167782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1007553494}
+  - {fileID: 1032861706}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1180889582
 GameObject:
   m_ObjectHideFlags: 0
@@ -30962,6 +31505,7 @@ GameObject:
   - 135: {fileID: 1180889586}
   - 198: {fileID: 1180889585}
   - 199: {fileID: 1180889584}
+  - 114: {fileID: 1180889588}
   m_Layer: 0
   m_Name: yogore (14)
   m_TagString: Untagged
@@ -32485,6 +33029,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180889582}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1180889588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180889582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1205911396
 GameObject:
   m_ObjectHideFlags: 0
@@ -32497,6 +33053,7 @@ GameObject:
   - 135: {fileID: 1205911400}
   - 198: {fileID: 1205911399}
   - 199: {fileID: 1205911398}
+  - 114: {fileID: 1205911402}
   m_Layer: 0
   m_Name: yogore (4)
   m_TagString: Untagged
@@ -34020,6 +34577,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1205911396}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1205911402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205911396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1227499528
 GameObject:
   m_ObjectHideFlags: 0
@@ -34032,6 +34601,7 @@ GameObject:
   - 135: {fileID: 1227499532}
   - 198: {fileID: 1227499531}
   - 199: {fileID: 1227499530}
+  - 114: {fileID: 1227499534}
   m_Layer: 0
   m_Name: yogore (35)
   m_TagString: Untagged
@@ -35555,6 +36125,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1227499528}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1227499534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227499528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1242151318
 GameObject:
   m_ObjectHideFlags: 0
@@ -35567,6 +36149,7 @@ GameObject:
   - 135: {fileID: 1242151322}
   - 198: {fileID: 1242151321}
   - 199: {fileID: 1242151320}
+  - 114: {fileID: 1242151324}
   m_Layer: 0
   m_Name: yogore (32)
   m_TagString: Untagged
@@ -37090,6 +37673,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242151318}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1242151324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242151318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1244317071
 GameObject:
   m_ObjectHideFlags: 0
@@ -37102,6 +37697,7 @@ GameObject:
   - 135: {fileID: 1244317075}
   - 198: {fileID: 1244317074}
   - 199: {fileID: 1244317073}
+  - 114: {fileID: 1244317077}
   m_Layer: 0
   m_Name: yogore (33)
   m_TagString: Untagged
@@ -38625,6 +39221,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244317071}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1244317077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1244317071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1270285113
 GameObject:
   m_ObjectHideFlags: 0
@@ -38637,6 +39245,7 @@ GameObject:
   - 135: {fileID: 1270285117}
   - 198: {fileID: 1270285116}
   - 199: {fileID: 1270285115}
+  - 114: {fileID: 1270285119}
   m_Layer: 0
   m_Name: yogore (29)
   m_TagString: Untagged
@@ -40160,6 +40769,79 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1270285113}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1270285119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270285113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
+--- !u!1 &1275997648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1275997651}
+  - 114: {fileID: 1275997650}
+  - 114: {fileID: 1275997649}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1275997649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275997648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1275997650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275997648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1275997651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275997648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &1280909647
 GameObject:
   m_ObjectHideFlags: 0
@@ -40172,6 +40854,7 @@ GameObject:
   - 135: {fileID: 1280909651}
   - 198: {fileID: 1280909650}
   - 199: {fileID: 1280909649}
+  - 114: {fileID: 1280909653}
   m_Layer: 0
   m_Name: yogore (34)
   m_TagString: Untagged
@@ -41695,6 +42378,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280909647}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1280909653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280909647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1282791120
 GameObject:
   m_ObjectHideFlags: 0
@@ -41707,6 +42402,7 @@ GameObject:
   - 135: {fileID: 1282791124}
   - 198: {fileID: 1282791123}
   - 199: {fileID: 1282791122}
+  - 114: {fileID: 1282791126}
   m_Layer: 0
   m_Name: yogore (28)
   m_TagString: Untagged
@@ -43230,6 +43926,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1282791120}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1282791126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1282791120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1372830649
 GameObject:
   m_ObjectHideFlags: 0
@@ -43242,6 +43950,7 @@ GameObject:
   - 135: {fileID: 1372830653}
   - 198: {fileID: 1372830652}
   - 199: {fileID: 1372830651}
+  - 114: {fileID: 1372830655}
   m_Layer: 0
   m_Name: yogore (22)
   m_TagString: Untagged
@@ -44765,6 +45474,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1372830649}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1372830655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1372830649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1383838391
 GameObject:
   m_ObjectHideFlags: 0
@@ -44777,6 +45498,7 @@ GameObject:
   - 135: {fileID: 1383838395}
   - 198: {fileID: 1383838394}
   - 199: {fileID: 1383838393}
+  - 114: {fileID: 1383838397}
   m_Layer: 0
   m_Name: yogore (31)
   m_TagString: Untagged
@@ -46300,6 +47022,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1383838391}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1383838397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383838391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1462612718
 GameObject:
   m_ObjectHideFlags: 0
@@ -46312,6 +47046,7 @@ GameObject:
   - 135: {fileID: 1462612722}
   - 198: {fileID: 1462612721}
   - 199: {fileID: 1462612720}
+  - 114: {fileID: 1462612724}
   m_Layer: 0
   m_Name: yogore (30)
   m_TagString: Untagged
@@ -47835,6 +48570,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462612718}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1462612724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462612718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1576889949
 GameObject:
   m_ObjectHideFlags: 0
@@ -47933,6 +48680,7 @@ GameObject:
   - 135: {fileID: 1692391975}
   - 198: {fileID: 1692391974}
   - 199: {fileID: 1692391973}
+  - 114: {fileID: 1692391977}
   m_Layer: 0
   m_Name: yogore (13)
   m_TagString: Untagged
@@ -49456,6 +50204,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1692391971}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1692391977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692391971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1760077218
 GameObject:
   m_ObjectHideFlags: 0
@@ -49468,6 +50228,7 @@ GameObject:
   - 135: {fileID: 1760077222}
   - 198: {fileID: 1760077221}
   - 199: {fileID: 1760077220}
+  - 114: {fileID: 1760077224}
   m_Layer: 0
   m_Name: yogore (24)
   m_TagString: Untagged
@@ -50991,6 +51752,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1760077218}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1760077224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760077218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1805868517
 GameObject:
   m_ObjectHideFlags: 0
@@ -51003,6 +51776,7 @@ GameObject:
   - 135: {fileID: 1805868521}
   - 198: {fileID: 1805868520}
   - 199: {fileID: 1805868519}
+  - 114: {fileID: 1805868523}
   m_Layer: 0
   m_Name: yogore (39)
   m_TagString: Untagged
@@ -52526,6 +53300,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805868517}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1805868523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805868517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1823306851
 GameObject:
   m_ObjectHideFlags: 0
@@ -52535,7 +53321,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1823306852}
   m_Layer: 0
-  m_Name: Yogoore
+  m_Name: YogooreContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52605,6 +53391,7 @@ GameObject:
   - 135: {fileID: 1889791779}
   - 198: {fileID: 1889791778}
   - 199: {fileID: 1889791777}
+  - 114: {fileID: 1889791781}
   m_Layer: 0
   m_Name: yogore (3)
   m_TagString: Untagged
@@ -54128,6 +54915,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889791775}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1889791781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889791775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1958397101
 GameObject:
   m_ObjectHideFlags: 0
@@ -54140,6 +54939,7 @@ GameObject:
   - 135: {fileID: 1958397105}
   - 198: {fileID: 1958397104}
   - 199: {fileID: 1958397103}
+  - 114: {fileID: 1958397107}
   m_Layer: 0
   m_Name: yogore (17)
   m_TagString: Untagged
@@ -55663,6 +56463,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1958397101}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1958397107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1958397101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &1964749134
 GameObject:
   m_ObjectHideFlags: 0
@@ -55750,6 +56562,7 @@ GameObject:
   - 135: {fileID: 2000576371}
   - 198: {fileID: 2000576370}
   - 199: {fileID: 2000576369}
+  - 114: {fileID: 2000576373}
   m_Layer: 0
   m_Name: yogore (18)
   m_TagString: Untagged
@@ -57273,6 +58086,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2000576367}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2000576373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2000576367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &2039765933
 GameObject:
   m_ObjectHideFlags: 0
@@ -57285,6 +58110,7 @@ GameObject:
   - 135: {fileID: 2039765937}
   - 198: {fileID: 2039765936}
   - 199: {fileID: 2039765935}
+  - 114: {fileID: 2039765939}
   m_Layer: 0
   m_Name: yogore (26)
   m_TagString: Untagged
@@ -58808,6 +59634,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2039765933}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2039765939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2039765933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &2070421470
 GameObject:
   m_ObjectHideFlags: 0
@@ -58820,6 +59658,7 @@ GameObject:
   - 135: {fileID: 2070421474}
   - 198: {fileID: 2070421473}
   - 199: {fileID: 2070421472}
+  - 114: {fileID: 2070421476}
   m_Layer: 0
   m_Name: yogore (11)
   m_TagString: Untagged
@@ -60343,6 +61182,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070421470}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2070421476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2070421470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
 --- !u!1 &2140229165
 GameObject:
   m_ObjectHideFlags: 0
@@ -60355,6 +61206,7 @@ GameObject:
   - 135: {fileID: 2140229169}
   - 198: {fileID: 2140229168}
   - 199: {fileID: 2140229167}
+  - 114: {fileID: 2140229171}
   m_Layer: 0
   m_Name: yogore
   m_TagString: Untagged
@@ -61878,3 +62730,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2140229165}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2140229171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2140229165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc14dde4d0b01d48b877557c7b3ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaraArai: {fileID: 465461566}
