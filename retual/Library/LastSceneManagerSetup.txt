@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/nemoto/nemoto_test.unity
-  isLoaded: 1
-  isActive: 1
