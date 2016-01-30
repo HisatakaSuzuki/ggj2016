@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerAnimation : MonoBehaviour {
 
@@ -21,6 +22,11 @@ public class PlayerAnimation : MonoBehaviour {
 
     public Animator animator;
 
+    bool isStart = false;
+    bool isFirstFrame = false;
+
+    public float warkSpeed;
+
     //static readonly int hashStatePositive = Animator.StringToHash("Positive");
     static readonly int hashStateBothHandsdown = Animator.StringToHash("BothHandsdown");
     static readonly int hashStateBothHandsUp = Animator.StringToHash("BothHandsUp");
@@ -32,6 +38,7 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateLeftHanddown = Animator.StringToHash("LeftHanddown");
     static readonly int hashStateLeftHandUp = Animator.StringToHash("LeftHandUp");
     static readonly int hashStateLeftLegdown = Animator.StringToHash("LeftLegdown");
+    //11~
     static readonly int hashStateLeftLegUp = Animator.StringToHash("LeftLegUp");
     static readonly int hashStateLeftwalk = Animator.StringToHash("Leftwalk");
     static readonly int hashStateRightForeArm_in = Animator.StringToHash("RightForeArm_in");
@@ -43,22 +50,31 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateRightHandUp = Animator.StringToHash("RightHandUp");
     static readonly int hashStateRightLegdown = Animator.StringToHash("RightLegdown");
     static readonly int hashStateRightLegUp = Animator.StringToHash("RightLegUp");
+    //21~
     static readonly int hashStateRightwalk = Animator.StringToHash("Rightwalk");
     static readonly int hashStatestand = Animator.StringToHash("stand");
     static readonly int hashStatewalk = Animator.StringToHash("walk");
+
+    static readonly int hashStateBothFloating = Animator.StringToHash("Floating");
+    static readonly int hashStateBothFloating2 = Animator.StringToHash("Floating2");
+    static readonly int hashStateLeftBlendWalk = Animator.StringToHash("LeftBlendWalk");
+    
+
 
     int[] hashs =
     {
         hashStateLeftHanddown ,
         hashStateLeftHandUp ,
-        hashStateRightHanddown,
         hashStateRightHandUp,
+        hashStateRightHanddown,
+        
         hashStateLeftForeArm_in,
         hashStateRightForeArm_in ,
         hashStateLeftForeArmdown,
         hashStateLeftForeArmUp ,
         hashStateRightForeArmdown,
         hashStateRightForeArmUp,
+        //11
         hashStateLeftForeArm_out,
         hashStateRightForeArm_out ,
         hashStateBothFalling,
@@ -69,12 +85,19 @@ public class PlayerAnimation : MonoBehaviour {
         hashStateRightwalk ,
         hashStateLeftwalk ,
         hashStateBothHandsdown,
+        //21
         hashStateBothHandsUp,
         hashStatestand,
         hashStatewalk,
+        hashStateBothFloating,
+        hashStateBothFloating2,
+        hashStateLeftBlendWalk
+
     };
     [Range(0,20)]
     public int hashnum = 0;
+
+    List<int> routineBox = new List<int>();
     
     // Use this for initialization
     void Start () {
@@ -82,13 +105,13 @@ public class PlayerAnimation : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         
-        
+        /*
         if( Input.GetKeyDown( KeyCode.A ) )
         {
             animator.Play( hashs[hashnum] );
-           
+            isStart = true;
            
         }
         if (Input.GetMouseButtonDown(0))
@@ -99,8 +122,36 @@ public class PlayerAnimation : MonoBehaviour {
         {
             hashnum--;
         }
-        
+        */
+        if (isFirstFrame)
+        {
+            isFirstFrame = false;
+            Transform[] now = AnimeObject.GetComponentsInChildren<Transform>();
+            Transform[] before = AnimedObject.GetComponentsInChildren<Transform>();
 
+            Transform[] main = MainObject.GetComponentsInChildren<Transform>();
+
+            Transform[] nomove = NoMoveObject.GetComponentsInChildren<Transform>();
+            //Debug.Log("bb");
+            for (int i = 0; i < main.Length; ++i)
+            {
+                nomove[i].rotation = now[i].rotation;
+            }
+        }
+        if ( isStart  )
+        {
+            isFirstFrame = true;
+            isStart = false;
+            return;
+        }
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("LeftBlendWark") || animator.GetCurrentAnimatorStateInfo(0).IsName("RightBlendWark"))
+        {
+            animator.SetFloat("Blend", animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            MainObject.transform.position += this.transform.forward * warkSpeed * Time.fixedDeltaTime;
+
+            //Debug.Log("aa");
+        }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("StandEnd"))
         {
             Transform[] now = AnimeObject.GetComponentsInChildren<Transform>();
@@ -114,6 +165,7 @@ public class PlayerAnimation : MonoBehaviour {
 
                 //Debug.Log("aa");
         }
+        
         else if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
         {
 
@@ -132,7 +184,7 @@ public class PlayerAnimation : MonoBehaviour {
                 //main[i].rotation.SetFromToRotation( now[i].localRotation.eulerAngles, main[i].rotation.eulerAngles * 2.0f );
 
                 //main[i].rotation = nomove[i].rotation * (Quaternion.FromToRotation(nomove[i].rotation.eulerAngles, now[i].rotation.eulerAngles));
-                main[i].localScale = before[i].localScale + now[i].localScale - nomove[i].localScale;
+                //main[i].localScale = before[i].localScale + now[i].localScale - nomove[i].localScale;
 
                 //Debug.Log(Quaternion.FromToRotation(now[i].rotation.eulerAngles, before[i].rotation.eulerAngles).x);
                 Vector3 anime = now[i].localRotation.eulerAngles;
@@ -165,8 +217,13 @@ public class PlayerAnimation : MonoBehaviour {
         if(animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
         {
             isPlay = true;
+
         }
+        routineBox.Add( animeNum );
+        isStart = true;
+       
         animator.Play( hashs[animeNum] );
+        
         return isPlay;
     }
 }
