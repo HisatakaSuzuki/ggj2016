@@ -34,6 +34,23 @@ public class GameSceneManager : MonoBehaviour {
             SceneManager.LoadScene(m_Animetion, LoadSceneMode.Additive);
         }
 
+
+        switch (DataManager.Instance.stageData.number)
+        {
+            case 1:
+                if (SceneManager.GetSceneByName("saraarai").isLoaded == false)
+                {
+                    SceneManager.LoadScene("saraarai", LoadSceneMode.Additive);
+                }
+                break;
+            case 2:
+                if (SceneManager.GetSceneByName("suika").isLoaded == false)
+                {
+                    SceneManager.LoadScene("suika", LoadSceneMode.Additive);
+                }
+                break;
+
+        }
         
     }
 
