@@ -8,16 +8,49 @@ public class SuikaWari : MonoBehaviour {
     [SerializeField]
     Text m_CompleteLevel;
 
-    void OnCollisionEnter(Collision collision)
+    int m_MaxBreak;
+    int m_BreakCount;
+
+    void Start()
     {
-        foreach (ContactPoint contact in collision.contacts)
+        m_BreakCount = 0;
+        m_MaxBreak = 0;
+        int c = transform.childCount;
+        for (int i = 0; i < c; i++)
         {
-            if (contact.otherCollider.tag == "Player")
+            var suika = transform.GetChild(i);
+            int s = suika.childCount;
+            for (int j = 0; j < s; j++)
             {
-                var length = contact.otherCollider.GetComponent<Rigidbody>().GetPointVelocity(transform.position).magnitude;
-                m_CompleteLevel.text = (length * 100).ToString() + "%";
+                var joint = suika.GetChild(j).GetComponent<FixedJoint>();
+                if (joint)
+                {
+                    m_MaxBreak++;
+                    m_BreakCount++;
+                }
+            }
+        }
+    }
+
+    void Update()
+    {
+
+        m_BreakCount = 0;
+        int c = transform.childCount;
+        for(int i = 0;i<c;i++)
+        {
+            var suika = transform.GetChild(i);
+            int s = suika.childCount;
+            for(int j = 0;j<s;j++)
+            {
+                var joint = suika.GetChild(j).GetComponent<FixedJoint>();
+                if (joint)
+                {
+                    m_BreakCount++;
+                }
             }
         }
 
+        m_CompleteLevel.text = ((m_MaxBreak - m_BreakCount) / (float)m_MaxBreak * 100.0f).ToString() + "%";
     }
 }
