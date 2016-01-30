@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: c530714a123effb4a8224ba528e304f2
+timeCreated: 1454122155
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head
+    100002: HeadTop
+    100004: Hips
+    100006: humanBody5-retopo 1-retopo 6
+    100008: LeftArm
+    100010: LeftFinger
+    100012: LeftFingerBase
+    100014: LeftFoot
+    100016: LeftFromArm
+    100018: LeftHand
+    100020: LeftLeg
+    100022: LeftToe
+    100024: LeftToeBase
+    100026: LeftUpLeg
+    100028: Neck
+    100030: //RootNode
+    100032: RightArm
+    100034: RightFinger
+    100036: RightFingerBase
+    100038: RightFoot
+    100040: RightFromArm
+    100042: RightHand
+    100044: RightLeg
+    100046: RightToe
+    100048: RightToeBase
+    100050: RightUpLeg
+    100052: Spine
+    100054: Spine1
+    400000: Head
+    400002: HeadTop
+    400004: Hips
+    400006: humanBody5-retopo 1-retopo 6
+    400008: LeftArm
+    400010: LeftFinger
+    400012: LeftFingerBase
+    400014: LeftFoot
+    400016: LeftFromArm
+    400018: LeftHand
+    400020: LeftLeg
+    400022: LeftToe
+    400024: LeftToeBase
+    400026: LeftUpLeg
+    400028: Neck
+    400030: //RootNode
+    400032: RightArm
+    400034: RightFinger
+    400036: RightFingerBase
+    400038: RightFoot
+    400040: RightFromArm
+    400042: RightHand
+    400044: RightLeg
+    400046: RightToe
+    400048: RightToeBase
+    400050: RightUpLeg
+    400052: Spine
+    400054: Spine1
+    4300000: humanBody5-retopo 1-retopo 6
+    7400000: BothHandsUp
+    7400002: Stand
+    9500000: //RootNode
+    13700000: humanBody5-retopo 1-retopo 6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BothHandsUp
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand/LeftFingerBase/LeftFinger
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/Head/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand/RightFingerBase/RightFinger
+        weight: 1
+      - path: humanBody5-retopo 1-retopo 6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stand
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftFromArm/LeftHand/LeftFingerBase/LeftFinger
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/Head/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightFromArm/RightHand/RightFingerBase/RightFinger
+        weight: 1
+      - path: humanBody5-retopo 1-retopo 6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

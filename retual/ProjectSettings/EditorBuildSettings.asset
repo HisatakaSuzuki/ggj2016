@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/kanta/scenes/StageSelect/StageSelect.unity
   - enabled: 1
     path: Assets/kanta/scenes/GameScene.unity
+  - enabled: 1
+    path: Assets/kanta/scenes/Suika/suika.unity
