@@ -26,7 +26,7 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateBothHandsUp = Animator.StringToHash("BothHandsUp");
     static readonly int hashStateBothFalling = Animator.StringToHash("Falling");
     static readonly int hashStateLeftForeArm_in = Animator.StringToHash("LeftForeArm_in");
-    static readonly int hashStateBothLeftForeArm_out = Animator.StringToHash("LeftForeArm_out");
+    static readonly int hashStateLeftForeArm_out = Animator.StringToHash("LeftForeArm_out");
     static readonly int hashStateLeftForeArmdown = Animator.StringToHash("LeftForeArmdown");
     static readonly int hashStateLeftForeArmUp = Animator.StringToHash("LeftForeArmUp");
     static readonly int hashStateLeftHanddown = Animator.StringToHash("LeftHanddown");
@@ -36,6 +36,9 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateLeftwalk = Animator.StringToHash("Leftwalk");
     static readonly int hashStateRightForeArm_in = Animator.StringToHash("RightForeArm_in");
     static readonly int hashStateRightForeArm_out = Animator.StringToHash("RightForeArm_out");
+    static readonly int hashStateRightForeArmdown = Animator.StringToHash("RightForeArmdown");
+    static readonly int hashStateRightForeArmUp = Animator.StringToHash("RightForeArmdown");
+
     static readonly int hashStateRightHanddown = Animator.StringToHash("RightHanddown");
     static readonly int hashStateRightHandUp = Animator.StringToHash("RightHandUp");
     static readonly int hashStateRightLegdown = Animator.StringToHash("RightLegdown");
@@ -46,25 +49,27 @@ public class PlayerAnimation : MonoBehaviour {
 
     int[] hashs =
     {
-        hashStateBothHandsdown,
-        hashStateBothHandsUp,
-        hashStateBothFalling,
-        hashStateLeftForeArm_in,
-        hashStateBothLeftForeArm_out,
-        hashStateLeftForeArmdown,
-        hashStateLeftForeArmUp ,
         hashStateLeftHanddown ,
         hashStateLeftHandUp ,
-        hashStateLeftLegdown ,
-        hashStateLeftLegUp,
-        hashStateLeftwalk ,
-        hashStateRightForeArm_in ,
-        hashStateRightForeArm_out ,
         hashStateRightHanddown,
         hashStateRightHandUp,
-        hashStateRightLegdown,
+        hashStateLeftForeArm_in,
+        hashStateRightForeArm_in ,
+        hashStateLeftForeArmdown,
+        hashStateLeftForeArmUp ,
+        hashStateRightForeArmdown,
+        hashStateRightForeArmUp,
+        hashStateLeftForeArm_out,
+        hashStateRightForeArm_out ,
+        hashStateBothFalling,
+        hashStateLeftLegUp,
+        hashStateLeftLegdown ,
         hashStateRightLegUp ,
+        hashStateRightLegdown,
         hashStateRightwalk ,
+        hashStateLeftwalk ,
+        hashStateBothHandsdown,
+        hashStateBothHandsUp,
         hashStatestand,
         hashStatewalk,
     };
@@ -79,7 +84,7 @@ public class PlayerAnimation : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-        /*
+        
         if( Input.GetKeyDown( KeyCode.A ) )
         {
             animator.Play( hashs[hashnum] );
@@ -94,7 +99,7 @@ public class PlayerAnimation : MonoBehaviour {
         {
             hashnum--;
         }
-        */
+        
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("StandEnd"))
         {
