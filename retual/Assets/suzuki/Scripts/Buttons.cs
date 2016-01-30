@@ -15,6 +15,7 @@ public class Buttons : MonoBehaviour {
 
 	//stageselectへのシーン遷移
 	public void StartButton(){
-		Application.LoadLevel ("StageSelect");
+		//Application.LoadLevel ("StageSelect");
+        FadeManager.Instance.LoadLevel("StageSelect", 1f);
 	}
 }
