@@ -45,6 +45,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         CopyObj.transform.SetParent(canvasTran);
         CopyObj.transform.SetAsLastSibling();
         CopyObj.transform.localScale = Vector3.one;
+        CopyObj.transform.parent = GameObject.Find("Canvas").transform;
 
         // レイキャストがブロックされないように
         CanvasGroup canvasGroup = CopyObj.AddComponent<CanvasGroup>();
@@ -54,7 +55,8 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         Image sourceImage = transform.GetComponent<Image>();
 
         CopyImage.sprite = sourceImage.sprite;
-        CopyImage.rectTransform.sizeDelta = sourceImage.rectTransform.sizeDelta;
+        //CopyImage.rectTransform.sizeDelta = sourceImage.rectTransform.sizeDelta;
+        CopyImage.rectTransform.sizeDelta = new Vector2(100,100);
         CopyImage.color = sourceImage.color;
         CopyImage.material = sourceImage.material;
 

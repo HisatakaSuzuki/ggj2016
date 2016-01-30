@@ -44,7 +44,9 @@ public class DropUI : MonoBehaviour ,IDropHandler,IPointerEnterHandler,IPointerE
         transform.GetComponent<Image>().sprite = droppedImage.sprite;
         nowSprite = droppedImage.sprite;
         transform.GetComponent<Image>().color = Vector4.one;
-       
+        if (e.pointerDrag.GetComponent<RoutineState>() == null) return;//オブジェクトのルーチン番号の受け渡し
+        Debug.Log(e.pointerDrag.GetComponent<RoutineState>().RoutineNumber);
+        transform.GetComponent<RoutineState>().RoutineNumber = e.pointerDrag.GetComponent<RoutineState>().RoutineNumber;
        
 
     }

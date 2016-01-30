@@ -18,3 +18,4 @@ D:\MyDocuments\ggj2016\retual\Temp\bin\Debug\UnityEngine.UI.xml
 D:\MyDocuments\ggj2016\retual\Temp\bin\Debug\UnityEngine.Networking.xml
 D:\MyDocuments\ggj2016\retual\obj\Debug\Assembly-CSharp.dll
 D:\MyDocuments\ggj2016\retual\obj\Debug\Assembly-CSharp.pdb
+D:\MyDocuments\ggj2016\retual\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
