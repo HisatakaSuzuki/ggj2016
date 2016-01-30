@@ -13,3 +13,7 @@ EditorBuildSettings:
     path: Assets/kanta/scenes/Thinking.unity
   - enabled: 1
     path: Assets/kanta/nemoto_Thinking.unity
+  - enabled: 1
+    path: Assets/kanta/scenes/StageSelect/StageSelect.unity
+  - enabled: 1
+    path: Assets/kanta/scenes/GameScene.unity
