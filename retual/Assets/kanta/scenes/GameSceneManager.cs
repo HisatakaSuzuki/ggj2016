@@ -60,13 +60,13 @@ public class GameSceneManager : MonoBehaviour {
     {
         m_CurrentPhase = GameScenePhase.Animationm;
         var m = GameObject.Find("AnimationPhaseManager");
-        if (m) m.GetComponent<AnimetionPhaseManager>().isPhaseActive = true;
+        if (m) m.GetComponent<AnimetionPhaseManager>().Play();
     }
 
     public void ChangeResultPhase()
     {
         m_CurrentPhase = GameScenePhase.Animationm;
         var m = GameObject.Find("AnimationPhaseManager");
-        if (m) m.GetComponent<AnimetionPhaseManager>().isPhaseActive = true;
+        if (m) ;// m.GetComponent<AnimetionPhaseManager>().Play();
     }
 }
