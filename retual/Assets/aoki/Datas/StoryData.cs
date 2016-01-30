@@ -4,8 +4,11 @@ using System.Collections;
 [System.Serializable]
 public class StoryData  {
 
-    public StoryData()
+    public int[] storyNumber = new int[16];
+
+    public void SetStoryData( int num, int storyNum )
     {
+        this.storyNumber[num] = storyNum;
     }
 
     /*

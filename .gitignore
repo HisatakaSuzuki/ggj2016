@@ -21,9 +21,11 @@ ExportedObj/
 
 */[Ll]ibrary
 */[Tt]emp
+*/[Oo]bj
 
 # Unity3D generated meta files
 *.pidb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+retual/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt
