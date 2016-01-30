@@ -161,7 +161,7 @@ public class PlayerAnimation : MonoBehaviour {
         {
             isPlay = true;
         }
-        animator.Play( animeNum );
+        animator.Play( hashs[animeNum] );
         return isPlay;
     }
 }

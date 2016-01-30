@@ -47,7 +47,7 @@ public class testplayer : MonoBehaviour {
             int number = DataManager.Instance.storyData.storyNumber[i];
             m_CurrentRoutine = number;
 
-            if (m_CurrentRoutine == 0) yield break;
+            //if (m_CurrentRoutine == 0) yield break;
 
             yield return new WaitForSeconds(1.0f);
 

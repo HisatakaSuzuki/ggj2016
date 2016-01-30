@@ -4,25 +4,34 @@ using System.Collections;
 public class AnimetionPhaseManager : MonoBehaviour {
 
     [SerializeField]
-    testplayer m_Player;
+    PlayerAnimation m_Player;
 
-    bool m_PhaseActive = false;
+    int m_CurrentRoutine;
 
-    public bool isPhaseActive
+    void Start()
     {
-        set
-        {
-            m_PhaseActive = value;
-            if(m_Player)m_Player.enabled = value;
-        }
-        get
-        {
-            return m_PhaseActive;
-        }
+        m_Player.AnimePlay(0);
     }
 
-    void Awake()
+    public void Play()
     {
-        isPhaseActive = false;
+        m_CurrentRoutine = 0;
+        StartCoroutine(onPlayRoutine());
+    }
+
+
+    IEnumerator onPlayRoutine()
+    {
+        for (int i = 0; i < 16; i++)
+        {
+            int number = DataManager.Instance.storyData.storyNumber[i];
+            m_CurrentRoutine = number;
+            if (m_CurrentRoutine == 0) yield break;
+            m_Player.AnimePlay(m_CurrentRoutine - 1);
+
+            yield return new WaitForSeconds(1.0f);
+
+        }
+        yield break;
     }
 }
