@@ -19,9 +19,12 @@ public class RoutineManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        for (int i = 0; i < RoutineNums.Length; i++)
+        for (int i = 0; i < RoutineObjs.Length; i++)
         {
-            RoutineNums[i] = RoutineObjs[i].GetComponent<RoutineState>().RoutineNumber;
+            if (!RoutineObjs[i]) continue;
+            var r = RoutineObjs[i].GetComponent<RoutineState>();
+            if(r!=null)
+            RoutineNums[i] = r.RoutineNumber;
         }
 
         if (Story)

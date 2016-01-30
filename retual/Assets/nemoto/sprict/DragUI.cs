@@ -47,6 +47,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         CopyObj.transform.SetAsLastSibling();
         CopyObj.transform.localScale = Vector3.one;
         CopyObj.transform.parent = GameObject.Find("UniqueCanvas").transform;
+        CopyObj.transform.position = CopyObj.transform.position + Vector3.forward;
 
         // レイキャストがブロックされないように
         CanvasGroup canvasGroup = CopyObj.AddComponent<CanvasGroup>();
