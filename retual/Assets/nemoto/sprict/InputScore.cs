@@ -7,21 +7,26 @@ public class InputScore : MonoBehaviour {
 
     public float count;
     public float addcount;
+    public float NowScoreCount;
     public bool countStop;
+    public GameObject RisultObj;
 
     public void InputScoretoText()
     {
-        transform.GetComponent<Text>().text = "Score Is " + score.ToString("f2");
+        transform.GetComponent<Text>().text = "Score Is " ;
+        NowScoreCount = score;
     }
 
     public void addScoretoText()
     {
         count += addcount;
-        transform.GetComponent<Text>().text = "Score Is " + count.ToString("f2");
+        transform.GetComponent<Text>().text = "Score Is ";
+        NowScoreCount = count;
     }
 	// Use this for initialization
 	void Start () {
-        
+        RisultObj = GameObject.Find("DataManagerSingleton");
+        score = RisultObj.GetComponent<DataManager>().rusultData.score;
 	}
 	
 	// Update is called once per frame
