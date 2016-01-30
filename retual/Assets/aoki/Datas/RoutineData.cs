@@ -3,8 +3,6 @@ using System.Collections;
 
 [System.Serializable]
 public class RoutineData {
-   
-
 
     public RoutineData()
     {

@@ -30,7 +30,7 @@ public class RoutineManager : MonoBehaviour {
             StoryData S1 = d1.GetComponent<DataManager>().storyData;
             for (int i = 0; i < RoutineNums.Length; i++)
             {
-                S1.SetStoryData(i,RoutineNums[i]);
+                //S1.SetStoryData(i,RoutineNums[i]);
             }
         }
 	}
