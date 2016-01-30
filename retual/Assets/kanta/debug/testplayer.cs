@@ -12,6 +12,10 @@ public class testplayer : MonoBehaviour {
 	void Update () {
 
         float speed = 0.01f;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed += 0.05f;
+        }
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += transform.forward * speed;
