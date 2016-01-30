@@ -26,6 +26,7 @@ public class InputScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         RisultObj = GameObject.Find("DataManagerSingleton");
+        score = RisultObj.GetComponent<DataManager>().rusultData.score;
 	}
 	
 	// Update is called once per frame

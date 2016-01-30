@@ -540,11 +540,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46067bf490287f540818ee938a21f1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 100
+  score: 0
   count: 0
   addcount: 0.2
   NowScoreCount: 0
   countStop: 0
+  RisultObj: {fileID: 0}
 --- !u!1 &1062046182
 GameObject:
   m_ObjectHideFlags: 0
