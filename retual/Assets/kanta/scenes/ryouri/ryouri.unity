@@ -155,7 +155,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16480212}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.97, y: 0.355, z: -0.248}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1.1125079, y: 0.060489915, z: 1.6557382}
   m_Children:
   - {fileID: 1011049906}
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Ryouris: {fileID: 1274406944}
   m_Obon: {fileID: 2011544427}
-  m_ParText: {fileID: 1032861707}
+  m_ParText: {fileID: 1032861709}
 --- !u!1 &1032861705
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +559,7 @@ GameObject:
   - 224: {fileID: 1032861706}
   - 222: {fileID: 1032861708}
   - 114: {fileID: 1032861707}
+  - 114: {fileID: 1032861709}
   m_Layer: 5
   m_Name: parText
   m_TagString: Untagged
@@ -624,6 +625,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1032861705}
+--- !u!114 &1032861709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032861705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45634f12df5e8bf488607b9e8ea08fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ParText: {fileID: 1032861707}
 --- !u!1 &1159167782
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,7 +698,7 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1159167782}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -802,15 +815,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a9667c37fdc714f40b538eec3d4bbc0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9692074
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9667c37fdc714f40b538eec3d4bbc0c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6508901
+      value: 1.91
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9667c37fdc714f40b538eec3d4bbc0c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2057083
+      value: -2.14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9667c37fdc714f40b538eec3d4bbc0c, type: 3}
       propertyPath: m_LocalRotation.x

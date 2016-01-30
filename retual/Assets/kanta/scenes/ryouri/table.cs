@@ -9,7 +9,7 @@ public class table : MonoBehaviour {
     [SerializeField]
     obon m_Obon;
     [SerializeField]
-    Text m_ParText;
+    ParText m_ParText;
 
 
     int m_ObonMAX;
@@ -23,7 +23,7 @@ public class table : MonoBehaviour {
     {
         float t = (m_ObonCount + m_RyouriCount) / (float)(m_ObonMAX + m_RyouriMAX) * 50;
         float o = m_Obon.GetObonPar() * 50;
-        m_ParText.text = (t + o).ToString() + "%"; 
+        m_ParText.SetPar(t + o);
     }
 
     // Use this for initialization

@@ -21,3 +21,7 @@ EditorBuildSettings:
     path: Assets/kanta/scenes/GameScene.unity
   - enabled: 1
     path: Assets/kanta/scenes/Suika/suika.unity
+  - enabled: 1
+    path: Assets/kanta/scenes/ryouri/ryouri.unity
+  - enabled: 1
+    path: Assets/nemoto/result.unity
