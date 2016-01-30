@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/kanta/saraarai.unity
+    path: Assets/kanta/scenes/Sara/saraarai.unity
   - enabled: 1
-    path: Assets/kanta/Animation.unity
+    path: Assets/kanta/scenes/Animation.unity
   - enabled: 1
-    path: Assets/kanta/Thinking.unity
+    path: Assets/kanta/scenes/Thinking.unity
