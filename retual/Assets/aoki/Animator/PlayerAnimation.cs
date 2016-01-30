@@ -132,7 +132,7 @@ public class PlayerAnimation : MonoBehaviour {
                 //main[i].rotation.SetFromToRotation( now[i].localRotation.eulerAngles, main[i].rotation.eulerAngles * 2.0f );
 
                 //main[i].rotation = nomove[i].rotation * (Quaternion.FromToRotation(nomove[i].rotation.eulerAngles, now[i].rotation.eulerAngles));
-                main[i].localScale = before[i].localScale + now[i].localScale - nomove[i].localScale;
+                //main[i].localScale = before[i].localScale + now[i].localScale - nomove[i].localScale;
 
                 //Debug.Log(Quaternion.FromToRotation(now[i].rotation.eulerAngles, before[i].rotation.eulerAngles).x);
                 Vector3 anime = now[i].localRotation.eulerAngles;
