@@ -10,7 +10,7 @@ public class DropUI : MonoBehaviour ,IDropHandler,IPointerEnterHandler,IPointerE
 
     void Start()
     {
-        nowSprite = null;
+        nowSprite = transform.GetComponent<Image>().sprite;
     }
 
     public void OnPointerEnter(PointerEventData e)
@@ -19,7 +19,7 @@ public class DropUI : MonoBehaviour ,IDropHandler,IPointerEnterHandler,IPointerE
         if (e.pointerDrag == null)
         
             return;
-        
+        Debug.Log(e.pointerDrag.name);
         Image droppedImage = e.pointerDrag.GetComponent<Image>();
         transform.GetComponent<Image>().sprite = droppedImage.sprite;
         transform.GetComponent<Image>().color = Vector4.one * 0.6f;
@@ -39,11 +39,11 @@ public class DropUI : MonoBehaviour ,IDropHandler,IPointerEnterHandler,IPointerE
 
     public void OnDrop(PointerEventData e)
     {
-        
+        Debug.Log(e.pointerDrag.name);
         Image droppedImage = e.pointerDrag.GetComponent<Image>();
         transform.GetComponent<Image>().sprite = droppedImage.sprite;
         nowSprite = droppedImage.sprite;
-        transform.GetComponent<Image>().color = Vector4.one * 0.6f;
+        transform.GetComponent<Image>().color = Vector4.one;
        
        
 
