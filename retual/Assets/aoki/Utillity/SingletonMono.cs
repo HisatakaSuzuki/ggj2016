@@ -30,6 +30,7 @@ public class SingletonMono<T> : MonoBehaviour where T : SingletonMono<T> {
     {
         if (instance == null)
         {
+            DontDestroyOnLoad(this);
             instance = (T)this;
             return true;
         }

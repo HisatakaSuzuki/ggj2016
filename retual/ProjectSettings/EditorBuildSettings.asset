@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/kanta/saraarai.unity
+  - enabled: 1
+    path: Assets/kanta/Animation.unity
+  - enabled: 1
+    path: Assets/kanta/Thinking.unity
