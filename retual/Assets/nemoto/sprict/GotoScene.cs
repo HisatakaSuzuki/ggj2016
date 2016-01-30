@@ -8,7 +8,7 @@ public class GotoScene : MonoBehaviour {
 
     public void GoToScene()
     {
-        toScene = true;
+        FadeManager.Instance.LoadLevel(sceneName,1f);
     }
 	// Use this for initialization
 	void Start () {
@@ -17,11 +17,7 @@ public class GotoScene : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (toScene)
-        {
-            time -= Time.deltaTime;
-            if (time < 0) Application.LoadLevel(sceneName);
-        }
+        
 	
 	}
 }
