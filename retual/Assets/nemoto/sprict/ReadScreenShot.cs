@@ -9,11 +9,11 @@ public class ReadScreenShot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
        
-        path = "Screenshot.png";
+        path = "screenshot.png";
 
         Debug.Log("path:"+path);
 
-        byte[] image = File.ReadAllBytes("/"+path);
+        byte[] image = File.ReadAllBytes(Application.dataPath + path);
 
         Texture2D tex = new Texture2D(0,0);
 
