@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9e975aff6021fe049a8aad4f23e57a6b
-timeCreated: 1454116096
+guid: 9c8f35af26affff44aac07e168c97fb6
+timeCreated: 1454100378
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -62,7 +62,6 @@ ModelImporter:
     400052: Spine
     400054: Spine1
     4300000: humanBody5-retopo 1-retopo 6
-    7400000: Take 001
     9500000: //RootNode
     13700000: humanBody5-retopo 1-retopo 6
   materials:
