@@ -6,6 +6,8 @@ public class AnimetionPhaseManager : MonoBehaviour {
 
     [SerializeField]
     PlayerAnimation m_Player;
+    [SerializeField]
+    GetScreenShot m_ScreenShot;
 
     int m_CurrentRoutine;
 
@@ -27,6 +29,10 @@ public class AnimetionPhaseManager : MonoBehaviour {
         {
             int number = DataManager.Instance.storyData.storyNumber[i];
             m_CurrentRoutine = number;
+            if (i == 14 || (i != 15 && DataManager.Instance.storyData.storyNumber[i+1] == 0))
+            {
+                m_ScreenShot.getScreenShot();
+            }
             if (m_CurrentRoutine == 0) break;
             m_Player.AnimePlay(m_CurrentRoutine - 1);
 
