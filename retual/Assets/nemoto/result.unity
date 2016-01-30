@@ -542,7 +542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   count: 0
-  addcount: 0.2
+  addcount: 10
   NowScoreCount: 0
   countStop: 0
   RisultObj: {fileID: 0}
