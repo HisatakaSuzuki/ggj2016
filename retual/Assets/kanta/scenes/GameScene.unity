@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657b1b00807551545b3086464bed1d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Thinking: Thinking
+  m_Thinking: nemoto_Thinking
   m_Animetion: Animation
   m_AnimetionPhaseManager: {fileID: 0}
 --- !u!4 &815883837
