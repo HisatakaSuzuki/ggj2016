@@ -1,26 +1,26 @@
 fileFormatVersion: 2
-guid: 554344d65abafdf458e99fe5ea0a7bc1
-timeCreated: 1454116095
+guid: 3b8836a3f797c314ba702499fe1ea521
+timeCreated: 1454122153
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Head
-    100004: HeadTop
-    100006: Hips
-    100008: humanBody5-retopo 1-retopo 6
-    100010: LeftArm
-    100012: LeftFinger
-    100014: LeftFingerBase
-    100016: LeftFoot
-    100018: LeftFromArm
-    100020: LeftHand
-    100022: LeftLeg
-    100024: LeftToe
-    100026: LeftToeBase
-    100028: LeftUpLeg
-    100030: Neck
+    100000: Head
+    100002: HeadTop
+    100004: Hips
+    100006: humanBody5-retopo 1-retopo 6
+    100008: LeftArm
+    100010: LeftFinger
+    100012: LeftFingerBase
+    100014: LeftFoot
+    100016: LeftFromArm
+    100018: LeftHand
+    100020: LeftLeg
+    100022: LeftToe
+    100024: LeftToeBase
+    100026: LeftUpLeg
+    100028: Neck
+    100030: //RootNode
     100032: RightArm
     100034: RightFinger
     100036: RightFingerBase
@@ -33,22 +33,22 @@ ModelImporter:
     100050: RightUpLeg
     100052: Spine
     100054: Spine1
-    400000: //RootNode
-    400002: Head
-    400004: HeadTop
-    400006: Hips
-    400008: humanBody5-retopo 1-retopo 6
-    400010: LeftArm
-    400012: LeftFinger
-    400014: LeftFingerBase
-    400016: LeftFoot
-    400018: LeftFromArm
-    400020: LeftHand
-    400022: LeftLeg
-    400024: LeftToe
-    400026: LeftToeBase
-    400028: LeftUpLeg
-    400030: Neck
+    400000: Head
+    400002: HeadTop
+    400004: Hips
+    400006: humanBody5-retopo 1-retopo 6
+    400008: LeftArm
+    400010: LeftFinger
+    400012: LeftFingerBase
+    400014: LeftFoot
+    400016: LeftFromArm
+    400018: LeftHand
+    400020: LeftLeg
+    400022: LeftToe
+    400024: LeftToeBase
+    400026: LeftUpLeg
+    400028: Neck
+    400030: //RootNode
     400032: RightArm
     400034: RightFinger
     400036: RightFingerBase
