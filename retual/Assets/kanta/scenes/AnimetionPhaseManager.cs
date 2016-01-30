@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AnimetionPhaseManager : MonoBehaviour {
 
@@ -26,11 +27,18 @@ public class AnimetionPhaseManager : MonoBehaviour {
         {
             int number = DataManager.Instance.storyData.storyNumber[i];
             m_CurrentRoutine = number;
-            if (m_CurrentRoutine == 0) yield break;
+            if (m_CurrentRoutine == 0) break;
             m_Player.AnimePlay(m_CurrentRoutine - 1);
 
             yield return new WaitForSeconds(1.0f);
 
+        }
+
+        yield return new WaitForSeconds(5.0f);
+
+        if (SceneManager.GetSceneByName("result").isLoaded == false)
+        {
+            SceneManager.LoadScene("result", LoadSceneMode.Single);
         }
         yield break;
     }

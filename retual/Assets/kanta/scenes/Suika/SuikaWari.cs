@@ -6,7 +6,7 @@ public class SuikaWari : MonoBehaviour {
 
 
     [SerializeField]
-    Text m_CompleteLevel;
+    ParText m_ParText;
 
     int m_MaxBreak;
     int m_BreakCount;
@@ -51,6 +51,6 @@ public class SuikaWari : MonoBehaviour {
             }
         }
 
-        m_CompleteLevel.text = ((m_MaxBreak - m_BreakCount) / (float)m_MaxBreak * 100.0f).ToString() + "%";
+        m_ParText.SetPar((m_MaxBreak - m_BreakCount) / (float)m_MaxBreak * 100.0f);
     }
 }

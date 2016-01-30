@@ -15,7 +15,7 @@ public class SaraArai : MonoBehaviour {
     Color m_SaraMaterial_Kirei;
 
     [SerializeField]
-    Text m_CompleteLevel;
+    ParText m_ParText;
 
     int m_YogoreMax = 1;
     int m_YogoreCount = 0;
@@ -40,7 +40,7 @@ public class SaraArai : MonoBehaviour {
     {
         if (m_YogoreMax == 0) return;
         var par = m_YogoreCount / (float)m_YogoreMax;
-        m_CompleteLevel.text = (par * 100).ToString() + "%";
+        m_ParText.SetPar(par * 100);
         UpdateCompleteMaterial(par);
     }
 

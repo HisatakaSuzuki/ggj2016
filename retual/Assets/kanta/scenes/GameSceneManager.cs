@@ -50,7 +50,12 @@ public class GameSceneManager : MonoBehaviour {
                         SceneManager.LoadScene("suika", LoadSceneMode.Additive);
                     }
                     break;
-
+                case 3:
+                    if (SceneManager.GetSceneByName("ryouri").isLoaded == false)
+                    {
+                        SceneManager.LoadScene("ryouri", LoadSceneMode.Additive);
+                    }
+                    break;
             }
         }
     }
