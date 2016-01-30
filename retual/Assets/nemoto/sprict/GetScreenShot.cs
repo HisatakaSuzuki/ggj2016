@@ -5,7 +5,8 @@ public class GetScreenShot : MonoBehaviour {
 
     public void getScreenShot()
     {
-        Application.CaptureScreenshot("Screenshot.png");
+        Application.CaptureScreenshot("/Screenshot.png");
+
     }
 	// Use this for initialization
 	void Start () {
