@@ -3,34 +3,35 @@ using System.Collections;
 
 public class testplayer : MonoBehaviour {
 
+    Rigidbody m_Rigidbody;
 	// Use this for initialization
 	void Start () {
-	
+        m_Rigidbody = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        float speed = 0.01f;
+        float speed = 400.0f * Time.deltaTime;
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed += 0.05f;
+            speed += 400.0f * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += transform.forward * speed;
+            m_Rigidbody.AddForce(Vector3.forward * speed);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.position += transform.forward * -speed;
+            m_Rigidbody.AddForce(Vector3.forward * -speed);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += transform.right * speed;
+            m_Rigidbody.AddForce(Vector3.right * speed);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += transform.right * -speed;
+            m_Rigidbody.AddForce(Vector3.right * -speed);
         }
 	}
 }
