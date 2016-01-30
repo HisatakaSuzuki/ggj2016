@@ -58,7 +58,7 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateBothFloating = Animator.StringToHash("Floating");
     static readonly int hashStateBothFloating2 = Animator.StringToHash("Floating2");
     static readonly int hashStateLeftBlendWalk = Animator.StringToHash("LeftBlendWalk");
-    
+    static readonly int hashStateRightBlendWalk = Animator.StringToHash("RightBlendWalk");
 
 
     int[] hashs =
@@ -91,9 +91,25 @@ public class PlayerAnimation : MonoBehaviour {
         hashStatewalk,
         hashStateBothFloating,
         hashStateBothFloating2,
-        hashStateLeftBlendWalk
+        hashStateLeftBlendWalk,
+        hashStateRightBlendWalk,
 
     };
+
+    public int[] LeftWalkAnimation =
+    {
+        14,
+        13,
+        15
+    };
+
+    public int[] RightWalkAnimation =
+    {
+        16,
+        13,
+        17
+    };
+
     [Range(0,20)]
     public int hashnum = 0;
 
@@ -145,7 +161,7 @@ public class PlayerAnimation : MonoBehaviour {
             return;
         }
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("LeftBlendWark") || animator.GetCurrentAnimatorStateInfo(0).IsName("RightBlendWark"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("LeftBlendWalk") || animator.GetCurrentAnimatorStateInfo(0).IsName("RightBlendWalk"))
         {
             animator.SetFloat("Blend", animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
             MainObject.transform.position += this.transform.forward * warkSpeed * Time.fixedDeltaTime;
