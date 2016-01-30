@@ -24,6 +24,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     {
         CreateCopyObj();
         CopyObj.transform.position = e.position;
+        transform.GetComponent<AudioSource>().Play();
         
     }
 

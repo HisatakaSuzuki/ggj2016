@@ -13,7 +13,7 @@ public class ReadScreenShot : MonoBehaviour {
 
         Debug.Log("path:"+path);
 
-        byte[] image = File.ReadAllBytes(path);
+        byte[] image = File.ReadAllBytes("/"+path);
 
         Texture2D tex = new Texture2D(0,0);
 

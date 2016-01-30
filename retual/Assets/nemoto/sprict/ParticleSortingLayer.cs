@@ -1,16 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GetScreenShot : MonoBehaviour {
 
-    public void getScreenShot()
-    {
-        Application.CaptureScreenshot("/Screenshot.png");
+public class ParticleSortingLayer : MonoBehaviour {
 
-    }
 	// Use this for initialization
 	void Start () {
-	
+        
 	}
 	
 	// Update is called once per frame
