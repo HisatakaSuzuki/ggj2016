@@ -542,7 +542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   count: 0
-  addcount: 0.2
+  addcount: 10
   NowScoreCount: 0
   countStop: 0
   RisultObj: {fileID: 0}
@@ -951,7 +951,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -400, y: 0}
-  m_SizeDelta: {x: 900, y: 800}
+  m_SizeDelta: {x: 900, y: 504}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433846156
 MonoBehaviour:

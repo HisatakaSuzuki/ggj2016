@@ -47,7 +47,7 @@ public class DropUI : MonoBehaviour ,IDropHandler,IPointerEnterHandler,IPointerE
         if (e.pointerDrag.GetComponent<RoutineState>() == null) return;//オブジェクトのルーチン番号の受け渡し
         Debug.Log(e.pointerDrag.GetComponent<RoutineState>().RoutineNumber);
         transform.GetComponent<RoutineState>().RoutineNumber = e.pointerDrag.GetComponent<RoutineState>().RoutineNumber;
-       
+        transform.GetComponent<AudioSource>().Play();
 
     }
 }

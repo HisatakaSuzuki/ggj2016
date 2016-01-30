@@ -14,6 +14,7 @@ public class SaraYogore : MonoBehaviour
             if (m_SaraArai)
             {
                 m_SaraArai.YogoreDead();
+                m_SaraArai = null;
             }
         }
         

@@ -19,7 +19,7 @@ public class InputScore : MonoBehaviour {
 
     public void addScoretoText()
     {
-        count += addcount;
+        count += addcount*Time.deltaTime;
         transform.GetComponent<Text>().text = "Score Is ";
         NowScoreCount = count;
     }
