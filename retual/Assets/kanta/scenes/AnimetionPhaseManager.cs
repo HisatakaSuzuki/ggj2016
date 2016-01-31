@@ -40,8 +40,11 @@ public class AnimetionPhaseManager : MonoBehaviour {
         int maxCount = storyNumbers.Length;
         List<CombiAnimeData> combiAnimes = new List<CombiAnimeData>();
         combiAnimes.Add(new CombiAnimeData(m_Player.LeftWalkAnimation, 26));
-        combiAnimes.Add(new CombiAnimeData(m_Player.RightWalkAnimation,27));
-        
+        combiAnimes.Add(new CombiAnimeData(m_Player.RightWalkAnimation, 27));
+        combiAnimes.Add(new CombiAnimeData(m_Player.SquatLeftAnimation, 28));
+        combiAnimes.Add(new CombiAnimeData(m_Player.SquatRightAnimation, 28));
+
+
         foreach (CombiAnimeData combiAnimeData in combiAnimes )
         {
             int count = 0;
@@ -63,7 +66,7 @@ public class AnimetionPhaseManager : MonoBehaviour {
                 if (count >= combiAnimeData.checkAnimes.Length )
                 {
                     SetCombiAnime( combiAnimeData, storyNumbers, count, i + 1 - count);
-                    i = i - count-1;
+                    i = i - (count-1);
                     count = 0;
                 }
             }
