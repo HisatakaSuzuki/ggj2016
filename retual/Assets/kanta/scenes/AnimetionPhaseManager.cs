@@ -97,11 +97,14 @@ public class AnimetionPhaseManager : MonoBehaviour {
 
     IEnumerator onPlayRoutine()
     {
-        for (int i = 0; i < 16; i++)
+
+        yield return new WaitForSeconds(3.0f);
+        int count = DataManager.Instance.storyData.storyNumber.Length;
+        for (int i = 0; i < count; i++)
         {
             int number = DataManager.Instance.storyData.storyNumber[i];
             m_CurrentRoutine = number;
-            if (i == 14 || (i != 15 && DataManager.Instance.storyData.storyNumber[i+1] == 0))
+            if (i == count-2 || (i != count - 1 && DataManager.Instance.storyData.storyNumber[i + 1] == 0))
             {
                 m_ScreenShot.getScreenShot();
             }

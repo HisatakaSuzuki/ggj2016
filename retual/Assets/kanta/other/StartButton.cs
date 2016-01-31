@@ -24,8 +24,8 @@ public class StartButton : MonoBehaviour {
             {
                 DataManager.Instance.storyData.SetStoryData(i,state.RoutineNumber);
             }
-         
-        }
+
+        };
         DataManager.Instance.storyData.SetStoryData(c-1, 0);
         var obj = m_FOF.GetObject;
         if (obj)

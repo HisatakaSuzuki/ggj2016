@@ -98,6 +98,7 @@ GameObject:
   - 198: {fileID: 67920941}
   - 199: {fileID: 67920940}
   - 114: {fileID: 67920939}
+  - 114: {fileID: 67920945}
   m_Layer: 0
   m_Name: yogore (49)
   m_TagString: Untagged
@@ -1648,6 +1649,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 67920937}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &67920945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 67920937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &172085359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1674,7 @@ GameObject:
   - 198: {fileID: 172085362}
   - 199: {fileID: 172085361}
   - 114: {fileID: 172085365}
+  - 114: {fileID: 172085367}
   m_Layer: 0
   m_Name: yogore (23)
   m_TagString: Untagged
@@ -3211,6 +3225,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &172085367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172085359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &172568941
 GameObject:
   m_ObjectHideFlags: 0
@@ -3224,6 +3250,7 @@ GameObject:
   - 198: {fileID: 172568944}
   - 199: {fileID: 172568943}
   - 114: {fileID: 172568947}
+  - 114: {fileID: 172568949}
   m_Layer: 0
   m_Name: yogore (25)
   m_TagString: Untagged
@@ -4774,6 +4801,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &172568949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172568941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &307374775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4787,6 +4826,7 @@ GameObject:
   - 198: {fileID: 307374778}
   - 199: {fileID: 307374777}
   - 114: {fileID: 307374781}
+  - 114: {fileID: 307374783}
   m_Layer: 0
   m_Name: yogore (21)
   m_TagString: Untagged
@@ -6337,6 +6377,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &307374783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307374775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &333517227
 GameObject:
   m_ObjectHideFlags: 0
@@ -6350,6 +6402,7 @@ GameObject:
   - 198: {fileID: 333517230}
   - 199: {fileID: 333517229}
   - 114: {fileID: 333517233}
+  - 114: {fileID: 333517235}
   m_Layer: 0
   m_Name: yogore (2)
   m_TagString: Untagged
@@ -7900,6 +7953,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &333517235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333517227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &359586289
 GameObject:
   m_ObjectHideFlags: 0
@@ -7913,6 +7978,7 @@ GameObject:
   - 198: {fileID: 359586292}
   - 199: {fileID: 359586291}
   - 114: {fileID: 359586295}
+  - 114: {fileID: 359586297}
   m_Layer: 0
   m_Name: yogore (6)
   m_TagString: Untagged
@@ -9463,6 +9529,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &359586297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359586289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &390223508
 GameObject:
   m_ObjectHideFlags: 0
@@ -9476,6 +9554,7 @@ GameObject:
   - 198: {fileID: 390223511}
   - 199: {fileID: 390223510}
   - 114: {fileID: 390223514}
+  - 114: {fileID: 390223516}
   m_Layer: 0
   m_Name: yogore (38)
   m_TagString: Untagged
@@ -11026,6 +11105,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &390223516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 390223508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &421140807
 GameObject:
   m_ObjectHideFlags: 0
@@ -11114,6 +11205,7 @@ GameObject:
   - 198: {fileID: 422195761}
   - 199: {fileID: 422195760}
   - 114: {fileID: 422195759}
+  - 114: {fileID: 422195765}
   m_Layer: 0
   m_Name: yogore (45)
   m_TagString: Untagged
@@ -12664,6 +12756,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 422195757}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &422195765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422195757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &422227928
 GameObject:
   m_ObjectHideFlags: 0
@@ -12677,6 +12781,7 @@ GameObject:
   - 198: {fileID: 422227931}
   - 199: {fileID: 422227930}
   - 114: {fileID: 422227934}
+  - 114: {fileID: 422227936}
   m_Layer: 0
   m_Name: yogore (16)
   m_TagString: Untagged
@@ -14227,6 +14332,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &422227936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422227928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &425756780
 GameObject:
   m_ObjectHideFlags: 0
@@ -14240,6 +14357,7 @@ GameObject:
   - 198: {fileID: 425756784}
   - 199: {fileID: 425756783}
   - 114: {fileID: 425756782}
+  - 114: {fileID: 425756788}
   m_Layer: 0
   m_Name: yogore (40)
   m_TagString: Untagged
@@ -15790,6 +15908,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 425756780}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &425756788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425756780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1001 &436684470
 Prefab:
   m_ObjectHideFlags: 0
@@ -15857,6 +15987,7 @@ GameObject:
   - 198: {fileID: 452169926}
   - 199: {fileID: 452169925}
   - 114: {fileID: 452169929}
+  - 114: {fileID: 452169931}
   m_Layer: 0
   m_Name: yogore (37)
   m_TagString: Untagged
@@ -17407,6 +17538,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &452169931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452169923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &465461564
 GameObject:
   m_ObjectHideFlags: 0
@@ -17465,6 +17608,7 @@ GameObject:
   - 198: {fileID: 483746878}
   - 199: {fileID: 483746877}
   - 114: {fileID: 483746881}
+  - 114: {fileID: 483746883}
   m_Layer: 0
   m_Name: yogore (7)
   m_TagString: Untagged
@@ -19015,6 +19159,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &483746883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483746875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &540065078
 GameObject:
   m_ObjectHideFlags: 0
@@ -19028,6 +19184,7 @@ GameObject:
   - 198: {fileID: 540065081}
   - 199: {fileID: 540065080}
   - 114: {fileID: 540065084}
+  - 114: {fileID: 540065086}
   m_Layer: 0
   m_Name: yogore (5)
   m_TagString: Untagged
@@ -20578,6 +20735,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &540065086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540065078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &542200183
 GameObject:
   m_ObjectHideFlags: 0
@@ -20591,6 +20760,7 @@ GameObject:
   - 198: {fileID: 542200187}
   - 199: {fileID: 542200186}
   - 114: {fileID: 542200185}
+  - 114: {fileID: 542200191}
   m_Layer: 0
   m_Name: yogore (48)
   m_TagString: Untagged
@@ -22141,6 +22311,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542200183}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &542200191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 542200183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &578748049
 GameObject:
   m_ObjectHideFlags: 0
@@ -22194,6 +22376,7 @@ GameObject:
   - 198: {fileID: 670566904}
   - 199: {fileID: 670566903}
   - 114: {fileID: 670566907}
+  - 114: {fileID: 670566909}
   m_Layer: 0
   m_Name: yogore (8)
   m_TagString: Untagged
@@ -23744,6 +23927,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &670566909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670566901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &684195087
 GameObject:
   m_ObjectHideFlags: 0
@@ -23757,6 +23952,7 @@ GameObject:
   - 198: {fileID: 684195090}
   - 199: {fileID: 684195089}
   - 114: {fileID: 684195093}
+  - 114: {fileID: 684195095}
   m_Layer: 0
   m_Name: yogore (12)
   m_TagString: Untagged
@@ -25307,6 +25503,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &684195095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684195087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &710175964
 GameObject:
   m_ObjectHideFlags: 0
@@ -25320,6 +25528,7 @@ GameObject:
   - 198: {fileID: 710175967}
   - 199: {fileID: 710175966}
   - 114: {fileID: 710175970}
+  - 114: {fileID: 710175972}
   m_Layer: 0
   m_Name: yogore (10)
   m_TagString: Untagged
@@ -26870,6 +27079,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &710175972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &809543031
 GameObject:
   m_ObjectHideFlags: 0
@@ -26883,6 +27104,7 @@ GameObject:
   - 198: {fileID: 809543034}
   - 199: {fileID: 809543033}
   - 114: {fileID: 809543037}
+  - 114: {fileID: 809543039}
   m_Layer: 0
   m_Name: yogore (9)
   m_TagString: Untagged
@@ -28433,6 +28655,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &809543039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 809543031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &842931233
 GameObject:
   m_ObjectHideFlags: 0
@@ -28446,6 +28680,7 @@ GameObject:
   - 198: {fileID: 842931237}
   - 199: {fileID: 842931236}
   - 114: {fileID: 842931235}
+  - 114: {fileID: 842931241}
   m_Layer: 0
   m_Name: yogore (42)
   m_TagString: Untagged
@@ -29996,6 +30231,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 842931233}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &842931241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 842931233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &861541014
 GameObject:
   m_ObjectHideFlags: 0
@@ -30009,6 +30256,7 @@ GameObject:
   - 198: {fileID: 861541018}
   - 199: {fileID: 861541017}
   - 114: {fileID: 861541016}
+  - 114: {fileID: 861541022}
   m_Layer: 0
   m_Name: yogore (44)
   m_TagString: Untagged
@@ -31559,6 +31807,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 861541014}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &861541022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 861541014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &907925484
 GameObject:
   m_ObjectHideFlags: 0
@@ -31572,6 +31832,7 @@ GameObject:
   - 198: {fileID: 907925487}
   - 199: {fileID: 907925486}
   - 114: {fileID: 907925490}
+  - 114: {fileID: 907925492}
   m_Layer: 0
   m_Name: yogore (1)
   m_TagString: Untagged
@@ -33122,6 +33383,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &907925492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907925484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &941037210
 GameObject:
   m_ObjectHideFlags: 0
@@ -33135,6 +33408,7 @@ GameObject:
   - 198: {fileID: 941037213}
   - 199: {fileID: 941037212}
   - 114: {fileID: 941037216}
+  - 114: {fileID: 941037218}
   m_Layer: 0
   m_Name: yogore (36)
   m_TagString: Untagged
@@ -34685,6 +34959,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &941037218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941037210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!23 &961723155 stripped
 MeshRenderer:
   m_PrefabParentObject: {fileID: 2300000, guid: b2eaa8069b13a409fb10dca46b66cee4,
@@ -34707,6 +34993,7 @@ GameObject:
   - 198: {fileID: 1006384605}
   - 199: {fileID: 1006384604}
   - 114: {fileID: 1006384608}
+  - 114: {fileID: 1006384610}
   m_Layer: 0
   m_Name: yogore (19)
   m_TagString: Untagged
@@ -36257,6 +36544,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1006384610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1006384602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1007553493
 GameObject:
   m_ObjectHideFlags: 0
@@ -36431,6 +36730,7 @@ GameObject:
   - 198: {fileID: 1069177069}
   - 199: {fileID: 1069177068}
   - 114: {fileID: 1069177072}
+  - 114: {fileID: 1069177074}
   m_Layer: 0
   m_Name: yogore (20)
   m_TagString: Untagged
@@ -37981,6 +38281,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1069177074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1069177066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1099226712 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: b2eaa8069b13a409fb10dca46b66cee4, type: 3}
@@ -38025,6 +38337,7 @@ GameObject:
   - 198: {fileID: 1125395430}
   - 199: {fileID: 1125395429}
   - 114: {fileID: 1125395433}
+  - 114: {fileID: 1125395435}
   m_Layer: 0
   m_Name: yogore (27)
   m_TagString: Untagged
@@ -39575,6 +39888,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1125395435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1125395427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1126308802
 GameObject:
   m_ObjectHideFlags: 0
@@ -39588,6 +39913,7 @@ GameObject:
   - 198: {fileID: 1126308805}
   - 199: {fileID: 1126308804}
   - 114: {fileID: 1126308808}
+  - 114: {fileID: 1126308810}
   m_Layer: 0
   m_Name: yogore (15)
   m_TagString: Untagged
@@ -41138,6 +41464,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1126308810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126308802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1159167782
 GameObject:
   m_ObjectHideFlags: 0
@@ -41243,6 +41581,7 @@ GameObject:
   - 198: {fileID: 1180889585}
   - 199: {fileID: 1180889584}
   - 114: {fileID: 1180889588}
+  - 114: {fileID: 1180889590}
   m_Layer: 0
   m_Name: yogore (14)
   m_TagString: Untagged
@@ -42793,6 +43132,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1180889590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180889582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1001 &1181245891
 Prefab:
   m_ObjectHideFlags: 0
@@ -42852,6 +43203,7 @@ GameObject:
   - 198: {fileID: 1205911399}
   - 199: {fileID: 1205911398}
   - 114: {fileID: 1205911402}
+  - 114: {fileID: 1205911404}
   m_Layer: 0
   m_Name: yogore (4)
   m_TagString: Untagged
@@ -44402,6 +44754,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1205911404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205911396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1227499528
 GameObject:
   m_ObjectHideFlags: 0
@@ -44415,6 +44779,7 @@ GameObject:
   - 198: {fileID: 1227499531}
   - 199: {fileID: 1227499530}
   - 114: {fileID: 1227499534}
+  - 114: {fileID: 1227499536}
   m_Layer: 0
   m_Name: yogore (35)
   m_TagString: Untagged
@@ -45965,6 +46330,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1227499536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227499528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1242151318
 GameObject:
   m_ObjectHideFlags: 0
@@ -45978,6 +46355,7 @@ GameObject:
   - 198: {fileID: 1242151321}
   - 199: {fileID: 1242151320}
   - 114: {fileID: 1242151324}
+  - 114: {fileID: 1242151326}
   m_Layer: 0
   m_Name: yogore (32)
   m_TagString: Untagged
@@ -47528,6 +47906,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1242151326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242151318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1244317071
 GameObject:
   m_ObjectHideFlags: 0
@@ -47541,6 +47931,7 @@ GameObject:
   - 198: {fileID: 1244317074}
   - 199: {fileID: 1244317073}
   - 114: {fileID: 1244317077}
+  - 114: {fileID: 1244317079}
   m_Layer: 0
   m_Name: yogore (33)
   m_TagString: Untagged
@@ -49091,6 +49482,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1244317079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1244317071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1270285113
 GameObject:
   m_ObjectHideFlags: 0
@@ -49104,6 +49507,7 @@ GameObject:
   - 198: {fileID: 1270285116}
   - 199: {fileID: 1270285115}
   - 114: {fileID: 1270285119}
+  - 114: {fileID: 1270285121}
   m_Layer: 0
   m_Name: yogore (29)
   m_TagString: Untagged
@@ -50654,6 +51058,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1270285121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270285113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1280909647
 GameObject:
   m_ObjectHideFlags: 0
@@ -50667,6 +51083,7 @@ GameObject:
   - 198: {fileID: 1280909650}
   - 199: {fileID: 1280909649}
   - 114: {fileID: 1280909653}
+  - 114: {fileID: 1280909655}
   m_Layer: 0
   m_Name: yogore (34)
   m_TagString: Untagged
@@ -52217,6 +52634,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1280909655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280909647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1282791120
 GameObject:
   m_ObjectHideFlags: 0
@@ -52230,6 +52659,7 @@ GameObject:
   - 198: {fileID: 1282791123}
   - 199: {fileID: 1282791122}
   - 114: {fileID: 1282791126}
+  - 114: {fileID: 1282791128}
   m_Layer: 0
   m_Name: yogore (28)
   m_TagString: Untagged
@@ -53780,6 +54210,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1282791128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1282791120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1304825457
 GameObject:
   m_ObjectHideFlags: 0
@@ -53793,6 +54235,7 @@ GameObject:
   - 198: {fileID: 1304825461}
   - 199: {fileID: 1304825460}
   - 114: {fileID: 1304825459}
+  - 114: {fileID: 1304825465}
   m_Layer: 0
   m_Name: yogore (43)
   m_TagString: Untagged
@@ -55343,6 +55786,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1304825457}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1304825465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304825457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1353046260
 GameObject:
   m_ObjectHideFlags: 0
@@ -55356,6 +55811,7 @@ GameObject:
   - 198: {fileID: 1353046264}
   - 199: {fileID: 1353046263}
   - 114: {fileID: 1353046262}
+  - 114: {fileID: 1353046268}
   m_Layer: 0
   m_Name: yogore (47)
   m_TagString: Untagged
@@ -56906,6 +57362,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1353046260}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1353046268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1353046260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1372830649
 GameObject:
   m_ObjectHideFlags: 0
@@ -56919,6 +57387,7 @@ GameObject:
   - 198: {fileID: 1372830652}
   - 199: {fileID: 1372830651}
   - 114: {fileID: 1372830655}
+  - 114: {fileID: 1372830657}
   m_Layer: 0
   m_Name: yogore (22)
   m_TagString: Untagged
@@ -58469,6 +58938,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1372830657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1372830649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1383838391
 GameObject:
   m_ObjectHideFlags: 0
@@ -58482,6 +58963,7 @@ GameObject:
   - 198: {fileID: 1383838394}
   - 199: {fileID: 1383838393}
   - 114: {fileID: 1383838397}
+  - 114: {fileID: 1383838399}
   m_Layer: 0
   m_Name: yogore (31)
   m_TagString: Untagged
@@ -60032,6 +60514,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1383838399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383838391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1462612718
 GameObject:
   m_ObjectHideFlags: 0
@@ -60045,6 +60539,7 @@ GameObject:
   - 198: {fileID: 1462612721}
   - 199: {fileID: 1462612720}
   - 114: {fileID: 1462612724}
+  - 114: {fileID: 1462612726}
   m_Layer: 0
   m_Name: yogore (30)
   m_TagString: Untagged
@@ -61595,6 +62090,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1462612726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462612718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1692391971
 GameObject:
   m_ObjectHideFlags: 0
@@ -61608,6 +62115,7 @@ GameObject:
   - 198: {fileID: 1692391974}
   - 199: {fileID: 1692391973}
   - 114: {fileID: 1692391977}
+  - 114: {fileID: 1692391979}
   m_Layer: 0
   m_Name: yogore (13)
   m_TagString: Untagged
@@ -63158,6 +63666,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1692391979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692391971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1001 &1693043537
 Prefab:
   m_ObjectHideFlags: 0
@@ -63217,6 +63737,7 @@ GameObject:
   - 198: {fileID: 1760077221}
   - 199: {fileID: 1760077220}
   - 114: {fileID: 1760077224}
+  - 114: {fileID: 1760077226}
   m_Layer: 0
   m_Name: yogore (24)
   m_TagString: Untagged
@@ -64767,6 +65288,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1760077226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760077218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1805868517
 GameObject:
   m_ObjectHideFlags: 0
@@ -64780,6 +65313,7 @@ GameObject:
   - 198: {fileID: 1805868520}
   - 199: {fileID: 1805868519}
   - 114: {fileID: 1805868523}
+  - 114: {fileID: 1805868525}
   m_Layer: 0
   m_Name: yogore (39)
   m_TagString: Untagged
@@ -66330,6 +66864,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1805868525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805868517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1823306851
 GameObject:
   m_ObjectHideFlags: 0
@@ -66338,6 +66884,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1823306852}
+  - 82: {fileID: 1823306853}
   m_Layer: 0
   m_Name: YogooreContent
   m_TagString: Untagged
@@ -66407,6 +66954,80 @@ Transform:
   - {fileID: 67920938}
   m_Father: {fileID: 961723158}
   m_RootOrder: 0
+--- !u!82 &1823306853
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823306851}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5c9aedfeb1322454bb032809dccd7f1f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &1848679328
 Prefab:
   m_ObjectHideFlags: 0
@@ -66505,6 +67126,7 @@ GameObject:
   - 198: {fileID: 1889791778}
   - 199: {fileID: 1889791777}
   - 114: {fileID: 1889791781}
+  - 114: {fileID: 1889791783}
   m_Layer: 0
   m_Name: yogore (3)
   m_TagString: Untagged
@@ -68055,6 +68677,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1889791783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889791775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &1958397101
 GameObject:
   m_ObjectHideFlags: 0
@@ -68068,6 +68702,7 @@ GameObject:
   - 198: {fileID: 1958397104}
   - 199: {fileID: 1958397103}
   - 114: {fileID: 1958397107}
+  - 114: {fileID: 1958397109}
   m_Layer: 0
   m_Name: yogore (17)
   m_TagString: Untagged
@@ -69618,6 +70253,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &1958397109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1958397101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &2000576367
 GameObject:
   m_ObjectHideFlags: 0
@@ -69631,6 +70278,7 @@ GameObject:
   - 198: {fileID: 2000576370}
   - 199: {fileID: 2000576369}
   - 114: {fileID: 2000576373}
+  - 114: {fileID: 2000576375}
   m_Layer: 0
   m_Name: yogore (18)
   m_TagString: Untagged
@@ -71181,6 +71829,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &2000576375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2000576367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1001 &2034437265
 Prefab:
   m_ObjectHideFlags: 0
@@ -71240,6 +71900,7 @@ GameObject:
   - 198: {fileID: 2039765936}
   - 199: {fileID: 2039765935}
   - 114: {fileID: 2039765939}
+  - 114: {fileID: 2039765941}
   m_Layer: 0
   m_Name: yogore (26)
   m_TagString: Untagged
@@ -72790,6 +73451,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &2039765941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2039765933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &2051930897
 GameObject:
   m_ObjectHideFlags: 0
@@ -72803,6 +73476,7 @@ GameObject:
   - 198: {fileID: 2051930901}
   - 199: {fileID: 2051930900}
   - 114: {fileID: 2051930899}
+  - 114: {fileID: 2051930905}
   m_Layer: 0
   m_Name: yogore (41)
   m_TagString: Untagged
@@ -74353,6 +75027,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2051930897}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2051930905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2051930897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &2070421470
 GameObject:
   m_ObjectHideFlags: 0
@@ -74366,6 +75052,7 @@ GameObject:
   - 198: {fileID: 2070421473}
   - 199: {fileID: 2070421472}
   - 114: {fileID: 2070421476}
+  - 114: {fileID: 2070421478}
   m_Layer: 0
   m_Name: yogore (11)
   m_TagString: Untagged
@@ -75916,6 +76603,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &2070421478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2070421470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &2120232164
 GameObject:
   m_ObjectHideFlags: 0
@@ -75929,6 +76628,7 @@ GameObject:
   - 198: {fileID: 2120232168}
   - 199: {fileID: 2120232167}
   - 114: {fileID: 2120232166}
+  - 114: {fileID: 2120232172}
   m_Layer: 0
   m_Name: yogore (46)
   m_TagString: Untagged
@@ -77479,6 +78179,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2120232164}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2120232172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120232164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}
 --- !u!1 &2140229165
 GameObject:
   m_ObjectHideFlags: 0
@@ -77492,6 +78204,7 @@ GameObject:
   - 198: {fileID: 2140229168}
   - 199: {fileID: 2140229167}
   - 114: {fileID: 2140229171}
+  - 114: {fileID: 2140229173}
   m_Layer: 0
   m_Name: yogore
   m_TagString: Untagged
@@ -79042,3 +79755,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SaraArai: {fileID: 465461566}
+--- !u!114 &2140229173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2140229165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873144aa837ec674ab3fe4f5bf1d6ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: {fileID: 1823306853}

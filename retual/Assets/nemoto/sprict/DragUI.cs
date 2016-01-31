@@ -31,14 +31,40 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnDrag(PointerEventData e)
     {
         var t = GameObject.Find("UniqueCanvas");
-        var v = t.GetComponent<RectTransform>().sizeDelta;
+        var v = t.GetComponent<RectTransform>().position;
         Vector3 p = Input.mousePosition;
-        p.x /= v.x;
-        p.y /= v.y;
-        p.x *= Screen.width / 2 * 0.9f;
-        p.y *= Screen.height / 2 * 0.9f;
-        CopyObj.transform.position = p;
-       
+        //p *= GameObject.Find("UniqueCanvas").GetComponent<RectTransform>().localScale.x;
+        //p *= Screen.width / p.x; 
+            
+
+        //p.x =( p.x* (p.x / v.x) ) - p.x*((p.x / v.x) )/2.0f;
+        //p.x = p.x + v.x / Screen.width ;
+        //p.y = + p.y;
+
+        Debug.Log(Screen.width);
+
+        var x = p.x /Screen.width;
+        var y = p.y /Screen.height;
+
+        
+        var pos = t.GetComponent<RectTransform>().position;
+        var size = t.GetComponent<RectTransform>().sizeDelta;
+        var x2 = size.x;
+        var y2 = size.y;
+        var x3 = size.x - pos.y;
+        var y3 = size.y - pos.x;
+        //var x = p.x / Screen.width;
+        //var y = p.y / Screen.height;
+
+
+        p.x = (x * x2 - x3/2 - 32+8);
+        p.y = (y * y2 - y3/2 - 200+32);
+        p.z = v.z;
+        
+         
+        CopyObj.transform.localPosition = p;
+        //CopyObj.GetComponent<RectTransform>().transform.position = p;
+
     }
 
     public void OnEndDrag(PointerEventData e)
