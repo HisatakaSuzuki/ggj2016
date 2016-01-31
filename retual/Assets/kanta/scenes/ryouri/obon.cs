@@ -8,8 +8,9 @@ public class obon : MonoBehaviour {
     [SerializeField]
     GameObject m_Ryouris;
 
-
+    [SerializeField]
     int m_ObonMAX;
+    [SerializeField]
     int m_ObonCount;
 
     public float GetObonPar()
