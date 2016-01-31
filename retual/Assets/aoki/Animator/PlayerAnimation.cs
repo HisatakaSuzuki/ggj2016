@@ -262,11 +262,12 @@ public class PlayerAnimation : MonoBehaviour {
             isPlay = true;
 
         }
-        routineBox.Add( animeNum );
+        //routineBox.Add( animeNum );
         isStart = true;
        
         animator.Play( hashs[animeNum] );
-        
+
+        whistleSE.Play();
         return isPlay;
     }
 }
