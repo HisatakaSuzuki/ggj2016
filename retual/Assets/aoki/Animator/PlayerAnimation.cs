@@ -87,7 +87,8 @@ public class PlayerAnimation : MonoBehaviour {
         hashStateLeftLegdown ,
         hashStateRightLegUp ,
         hashStateRightLegdown,
-        hashStateRightwalk ,
+        hashStateBothFloating,
+        //hashStateRightwalk ,
         hashStateLeftwalk ,
         hashStateBothHandsdown,
         //21
