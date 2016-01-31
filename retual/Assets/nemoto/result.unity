@@ -587,6 +587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46067bf490287f540818ee938a21f1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dram: {fileID: 8300000, guid: 7107d06f89819064582e1b46006a6c25, type: 3}
+  result: {fileID: 8300000, guid: 0dce330610e438e48900130434559bbe, type: 3}
   score: 0
   count: 0
   addcount: 20

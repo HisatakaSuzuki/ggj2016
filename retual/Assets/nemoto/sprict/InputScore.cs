@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class InputScore : MonoBehaviour {
+    public AudioClip dram;
+    public AudioClip result;
     public float score;
 
     public float count;
@@ -40,6 +42,9 @@ public class InputScore : MonoBehaviour {
             else
             {
                 transform.GetComponent<AudioSource>().Stop();
+                transform.GetComponent<AudioSource>().clip = result;
+                transform.GetComponent<AudioSource>().loop = false;
+                transform.GetComponent<AudioSource>().Play();
                 countStop = true;
                 InputScoretoText();
             }
