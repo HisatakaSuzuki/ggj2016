@@ -63,6 +63,7 @@ public class AnimetionPhaseManager : MonoBehaviour {
                 if (count >= combiAnimeData.checkAnimes.Length )
                 {
                     SetCombiAnime( combiAnimeData, storyNumbers, count, i + 1 - count);
+                    i = i - count-1;
                     count = 0;
                 }
             }
