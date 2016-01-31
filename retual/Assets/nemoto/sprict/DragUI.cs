@@ -23,14 +23,21 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnBeginDrag(PointerEventData e)
     {
         CreateCopyObj();
-        CopyObj.transform.position = e.position;
+        CopyObj.transform.position = Input.mousePosition;
         transform.GetComponent<AudioSource>().Play();
         
     }
 
     public void OnDrag(PointerEventData e)
     {
-        CopyObj.transform.position = e.position;
+        var t = GameObject.Find("UniqueCanvas");
+        var v = t.GetComponent<RectTransform>().sizeDelta;
+        Vector3 p = Input.mousePosition;
+        p.x /= v.x;
+        p.y /= v.y;
+        p.x *= Screen.width / 2 * 0.9f;
+        p.y *= Screen.height / 2 * 0.9f;
+        CopyObj.transform.position = p;
        
     }
 
