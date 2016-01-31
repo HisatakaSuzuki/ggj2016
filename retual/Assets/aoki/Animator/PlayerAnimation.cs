@@ -59,21 +59,26 @@ public class PlayerAnimation : MonoBehaviour {
     static readonly int hashStateBothFloating2 = Animator.StringToHash("Floating2");
     static readonly int hashStateLeftBlendWalk = Animator.StringToHash("LeftBlendWalk");
     static readonly int hashStateRightBlendWalk = Animator.StringToHash("RightBlendWalk");
+    static readonly int hashStateSquat = Animator.StringToHash("Squat1");
+
 
 
     int[] hashs =
     {
-        hashStateLeftHanddown ,
+        
         hashStateLeftHandUp ,
-        hashStateRightHandUp,
+        hashStateLeftHanddown ,
         hashStateRightHanddown,
+        hashStateRightHandUp,
         
         hashStateLeftForeArm_in,
         hashStateRightForeArm_in ,
-        hashStateLeftForeArmdown,
+
         hashStateLeftForeArmUp ,
-        hashStateRightForeArmdown,
+        hashStateLeftForeArmdown,
+
         hashStateRightForeArmUp,
+        hashStateRightForeArmdown,
         //11
         hashStateLeftForeArm_out,
         hashStateRightForeArm_out ,
@@ -82,7 +87,8 @@ public class PlayerAnimation : MonoBehaviour {
         hashStateLeftLegdown ,
         hashStateRightLegUp ,
         hashStateRightLegdown,
-        hashStateRightwalk ,
+        hashStateBothFloating,
+        //hashStateRightwalk ,
         hashStateLeftwalk ,
         hashStateBothHandsdown,
         //21
@@ -93,7 +99,7 @@ public class PlayerAnimation : MonoBehaviour {
         hashStateBothFloating2,
         hashStateLeftBlendWalk,
         hashStateRightBlendWalk,
-
+        hashStateSquat,
     };
 
     public int[] LeftWalkAnimation =
@@ -109,6 +115,19 @@ public class PlayerAnimation : MonoBehaviour {
         13,
         17
     };
+
+    public int[] SquatLeftAnimation =
+    {
+        14,
+        16,
+    };
+
+    public int[] SquatRightAnimation =
+    {
+        16,
+        14,
+    };
+
 
     [Range(0,20)]
     public int hashnum = 0;
@@ -167,6 +186,13 @@ public class PlayerAnimation : MonoBehaviour {
             MainObject.transform.position += this.transform.forward * warkSpeed * Time.fixedDeltaTime;
 
             //Debug.Log("aa");
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Squat1")|| animator.GetCurrentAnimatorStateInfo(0).IsName("Squat2"))
+        {
+            animator.SetFloat("Blend", 0.5f);
+            MainObject.transform.position += this.transform.up * -warkSpeed * Time.fixedDeltaTime;
+
+
         }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("StandEnd"))
         {
