@@ -14,7 +14,8 @@ public class StageSelect : MonoBehaviour {
 
         if (SceneManager.GetSceneByName("GameScene").isLoaded == false)
         {
-            SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+            //SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+            FadeManager.Instance.LoadLevel("GameScene",1f);
         }
     }
 }
