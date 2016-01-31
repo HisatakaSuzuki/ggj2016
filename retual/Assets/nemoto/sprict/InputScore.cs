@@ -39,6 +39,7 @@ public class InputScore : MonoBehaviour {
             }
             else
             {
+                transform.GetComponent<AudioSource>().Stop();
                 countStop = true;
                 InputScoretoText();
             }
