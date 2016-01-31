@@ -21,8 +21,8 @@ public class table : MonoBehaviour {
 
     void UpdateParText()
     {
-        float t = (m_ObonCount + m_RyouriCount) / (float)(m_ObonMAX + m_RyouriMAX) * 20;
-        float o = m_Obon.GetObonPar() * 80;
+        float t = (m_ObonCount + m_RyouriCount) / (float)(m_ObonMAX + m_RyouriMAX) * 80;
+        float o = m_Obon.GetObonPar() * 20;
         m_ParText.SetPar(t + o);
     }
 
