@@ -7,7 +7,8 @@ public class PlayerAnimation : MonoBehaviour {
     
     public PlayerHarfData left = new PlayerHarfData();
     public PlayerHarfData right = new PlayerHarfData();
-
+    [SerializeField]
+    AudioSource whistleSE;
 
     public int fall;
 
