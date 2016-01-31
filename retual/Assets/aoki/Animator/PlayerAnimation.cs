@@ -63,17 +63,20 @@ public class PlayerAnimation : MonoBehaviour {
 
     int[] hashs =
     {
-        hashStateLeftHanddown ,
+        
         hashStateLeftHandUp ,
-        hashStateRightHandUp,
+        hashStateLeftHanddown ,
         hashStateRightHanddown,
+        hashStateRightHandUp,
         
         hashStateLeftForeArm_in,
         hashStateRightForeArm_in ,
-        hashStateLeftForeArmdown,
+
         hashStateLeftForeArmUp ,
-        hashStateRightForeArmdown,
+        hashStateLeftForeArmdown,
+
         hashStateRightForeArmUp,
+        hashStateRightForeArmdown,
         //11
         hashStateLeftForeArm_out,
         hashStateRightForeArm_out ,
