@@ -287,70 +287,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 13867252, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13855134, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13828472, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13816788, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13864048, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13830910, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13804354, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13877866, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakForce
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13867252, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13855134, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13828472, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13816788, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13864048, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13830910, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13804354, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 13877866, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
-      propertyPath: m_BreakTorque
-      value: 120
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
   m_IsPrefabParent: 0
@@ -396,7 +332,7 @@ Transform:
   - {fileID: 642635494}
   - {fileID: 1142448892}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
 --- !u!4 &642635494 stripped
 Transform:
   m_PrefabParentObject: {fileID: 437160, guid: 68156ab0eb3d1304ca0da4d758508a17, type: 2}
@@ -892,7 +828,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
 --- !u!1001 &1998805672
 Prefab:
   m_ObjectHideFlags: 0

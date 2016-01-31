@@ -23,8 +23,14 @@ public class RoutineManager : MonoBehaviour {
         {
             if (!RoutineObjs[i]) continue;
             var r = RoutineObjs[i].GetComponent<RoutineState>();
-            if(r!=null)
-            RoutineNums[i] = r.RoutineNumber;
+            if (r != null)
+            {
+                RoutineNums[i] = r.RoutineNumber;
+            }
+            else
+            {
+                RoutineNums[i] = 0;
+            }
         }
 
         if (Story)

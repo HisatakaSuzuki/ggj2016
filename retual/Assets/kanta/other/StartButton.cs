@@ -9,6 +9,11 @@ public class StartButton : MonoBehaviour {
     [SerializeField]
     GameObject m_RoutineContainer;
 
+
+    bool m_Zoom;
+    [SerializeField]
+    GameObject m_MainCamera;
+
     public void OnButtonEnter()
     {
         int c = m_RoutineContainer.transform.childCount;
@@ -21,8 +26,22 @@ public class StartButton : MonoBehaviour {
             }
          
         }
+        DataManager.Instance.storyData.SetStoryData(c-1, 0);
         var obj = m_FOF.GetObject;
         if (obj)
             obj.GetComponent<GameSceneManager>().ChangeAnimationPhase();
+
+        m_Zoom = true;
+    }
+
+    void Start()
+    {
+        m_Zoom = false;
+    }
+
+    void Update()
+    {
+        if (!m_Zoom) return;
+        m_MainCamera.transform.position = m_MainCamera.transform.position + Vector3.forward * 100 * Time.deltaTime;
     }
 }
